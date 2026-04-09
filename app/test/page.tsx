@@ -58,6 +58,7 @@ export default function TestPage() {
   }, [])
 
   if (loading) return <div className="p-6">Loading questions…</div>
+  if (!userId) return <div className="p-6">Loading user…</div>
   if (!questions.length) return <div className="p-6">No questions found.</div>
 
   const q = questions[currentIndex]
