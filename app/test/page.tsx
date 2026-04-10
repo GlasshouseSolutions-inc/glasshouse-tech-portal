@@ -4,15 +4,28 @@ import { useEffect, useState } from 'react'
 import { supabase } from '@/utils/supabaseClient'
 
 export default function TestPage() {
+  const [userId, setUserId] = useState<string | null>(null)
+  const [loadingUser, setLoadingUser] = useState(true)
+
   const [questions, setQuestions] = useState<any[]>([])
   const [currentIndex, setCurrentIndex] = useState(0)
   const [answers, setAnswers] = useState<Record<string, string>>({})
   const [saving, setSaving] = useState(false)
-  const [applicantId] = useState('test-applicant') // temporary until login works
 
-  // Load questions + saved answers
+  // Load user + questions + saved answers
   useEffect(() => {
-    const loadData = async () => {
+    const loadUserAndData = async () => {
+      // 1. Get authenticated user
+      const { data: { session } } = await supabase.auth.getSession()
+
+      if (!session?.user) {
+        window.location.href = '/login'
+        return
+      }
+
+      setUserId(session.user.id)
+
+      // 2. Load questions
       const { data: q } = await supabase
         .from('questions')
         .select('*')
@@ -21,10 +34,11 @@ export default function TestPage() {
 
       setQuestions(q || [])
 
+      // 3. Load saved answers
       const { data: a } = await supabase
         .from('applicant_answers')
         .select('*')
-        .eq('applicant_id', applicantId)
+        .eq('applicant_id', session.user.id)
 
       if (a) {
         const map: Record<string, string> = {}
@@ -33,10 +47,17 @@ export default function TestPage() {
         })
         setAnswers(map)
       }
+
+      setLoadingUser(false)
     }
 
-    loadData()
-  }, [applicantId])
+    loadUserAndData()
+  }, [])
+
+  // Block UI until user + questions load
+  if (loadingUser) {
+    return <p className="p-6">Loading…</p>
+  }
 
   if (questions.length === 0) {
     return <p className="p-6">Loading questions…</p>
@@ -45,6 +66,8 @@ export default function TestPage() {
   const q = questions[currentIndex]
 
   const handleAnswer = async (letter: string) => {
+    if (!userId) return
+
     setSaving(true)
 
     setAnswers((prev) => ({
@@ -53,7 +76,7 @@ export default function TestPage() {
     }))
 
     await supabase.from('applicant_answers').upsert({
-      applicant_id: applicantId,
+      applicant_id: userId,
       question_id: q.id,
       answer: letter,
     })
@@ -74,11 +97,12 @@ export default function TestPage() {
   }
 
   const submitTest = async () => {
-    // Load all answers
+    if (!userId) return
+
     const { data: saved } = await supabase
       .from('applicant_answers')
       .select('*')
-      .eq('applicant_id', applicantId)
+      .eq('applicant_id', userId)
 
     let score = 0
 
@@ -90,7 +114,7 @@ export default function TestPage() {
     })
 
     await supabase.from('test_results').insert({
-      applicant_id: applicantId,
+      applicant_id: userId,
       score,
       total_questions: questions.length,
       completed_at: new Date(),
@@ -118,15 +142,14 @@ export default function TestPage() {
 
           return (
             <button
-  key={letter}
-  onClick={() => handleAnswer(letter)}
-  className={`block w-full text-left p-3 mb-3 border rounded 
-    ${selected ? 'bg-blue-600 text-white' : 'bg-white text-black'}
-  `}
->
-  <strong>{letter}.</strong> {choice}
-</button>
-
+              key={letter}
+              onClick={() => handleAnswer(letter)}
+              className={`block w-full text-left p-3 mb-3 border rounded 
+                ${selected ? 'bg-blue-600 text-white' : 'bg-white text-black'}
+              `}
+            >
+              <strong>{letter}.</strong> {choice}
+            </button>
           )
         })}
       </div>
