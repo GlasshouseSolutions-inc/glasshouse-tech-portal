@@ -14,45 +14,68 @@ export default function TestPage() {
 
   // Load user + questions + saved answers
   useEffect(() => {
-    const loadUserAndData = async () => {
-      // 1. Get authenticated user
-      const { data: { session } } = await supabase.auth.getSession()
+  const loadUserAndData = async () => {
+    // 1. Get authenticated user
+    const { data: { session } } = await supabase.auth.getSession()
 
-      if (!session?.user) {
-        window.location.href = '/login'
-        return
-      }
-
-      setUserId(session.user.id)
-
-      // 2. Load questions
-      const { data: q } = await supabase
-        .from('questions')
-        .select('*')
-        .eq('is_active', true)
-        .order('created_at', { ascending: true })
-
-      setQuestions(q || [])
-
-      // 3. Load saved answers
-      const { data: a } = await supabase
-        .from('applicant_answers')
-        .select('*')
-        .eq('applicant_id', session.user.id)
-
-      if (a) {
-        const map: Record<string, string> = {}
-        a.forEach((row) => {
-          map[row.question_id] = row.answer
-        })
-        setAnswers(map)
-      }
-
-      setLoadingUser(false)
+    if (!session?.user) {
+      window.location.href = '/login'
+      return
     }
 
-    loadUserAndData()
-  }, [])
+    setUserId(session.user.id)
+    // Check if test already completed
+    const { data: existingResult } = await supabase
+      .from('test_results')
+      .select('*')
+      .eq('applicant_id', session.user.id)
+      .maybeSingle()
+
+      if (existingResult) {
+      window.location.href = '/thank-you'
+      return
+    }
+    
+    // 2. Load questions
+    const { data: q } = await supabase
+      .from('questions')
+      .select('*')
+      .eq('is_active', true)
+      .order('created_at', { ascending: true })
+
+    setQuestions(q || [])
+
+    // 3. Load saved answers
+    const { data: a } = await supabase
+      .from('applicant_answers')
+      .select('*')
+      .eq('applicant_id', session.user.id)
+
+    let map: Record<string, string> = {}
+
+    if (a) {
+      a.forEach((row) => {
+        map[row.question_id] = row.answer
+      })
+      setAnswers(map)
+    }
+
+    // 4. Jump to first unanswered question
+    if (q && q.length > 0) {
+      const firstUnansweredIndex = q.findIndex(
+        (question) => !map[question.id]
+      )
+
+      if (firstUnansweredIndex !== -1) {
+        setCurrentIndex(firstUnansweredIndex)
+      }
+    }
+
+    setLoadingUser(false)
+  }
+
+  loadUserAndData()
+}, [])
 
   // Block UI until user + questions load
   if (loadingUser) {
