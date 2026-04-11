@@ -10,13 +10,18 @@ export default function LoginPage() {
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault()
 
+    // Determine origin safely (works in SSR + browser)
+    const origin =
+      typeof window !== 'undefined'
+        ? window.location.origin
+        : process.env.NEXT_PUBLIC_SITE_URL || 'https://glasshouse-tech-portal.vercel.app'
+
+    const redirectTo = `${origin}/test`
+
     const { error } = await supabase.auth.signInWithOtp({
       email,
       options: {
-        emailRedirectTo:
-          process.env.NODE_ENV === 'development'
-            ? 'http://localhost:3000/test'
-            : 'https://glasshouse-tech-portal.vercel.app/test'
+        emailRedirectTo: redirectTo
       }
     })
 
