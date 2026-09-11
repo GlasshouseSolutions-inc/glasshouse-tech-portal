@@ -774,10 +774,8 @@ export async function POST(req: NextRequest) {
     */
 
     return NextResponse.redirect(
-      new URL(
-        "/assessment/complete",
-        req.url
-      )
+      new URL("/assessment/complete", req.url),
+      303
     );
 
 
