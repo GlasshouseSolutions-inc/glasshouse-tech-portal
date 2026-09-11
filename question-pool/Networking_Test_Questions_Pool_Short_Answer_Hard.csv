@@ -1,0 +1,11 @@
+question_text,question_type,category,difficulty,expected_answer,choice_a,choice_b,choice_c,choice_d
+Describe how you diagnose a network experiencing random widespread outages.,Short Answer,Networking,Hard,You check core switch logs analyze routing stability inspect spanning tree events and test for hardware faults,,,,
+Explain how you troubleshoot asymmetric routing in a complex network.,Short Answer,Networking,Hard,You trace packet paths review routing tables inspect firewall rules and correct mismatched route advertisements,,,,
+Describe how you identify a failing core switch.,Short Answer,Networking,Hard,You monitor CPU spikes check error counters review logs for instability and test redundancy failover behavior,,,,
+Explain how you diagnose severe latency affecting multiple VLANs.,Short Answer,Networking,Hard,You inspect interVLAN routing measure congestion analyze switch performance and verify trunk configurations,,,,
+Describe how you troubleshoot intermittent packet corruption.,Short Answer,Networking,Hard,You test cable integrity monitor interface errors inspect transceivers and verify switch backplane health,,,,
+Explain how you identify a misconfigured spanning tree environment.,Short Answer,Networking,Hard,You review root bridge selection inspect port roles check for loops and validate priority settings,,,,
+Describe how you diagnose a firewall causing inconsistent traffic drops.,Short Answer,Networking,Hard,You inspect rule processing monitor logs test session limits and verify NAT or inspection behavior,,,,
+Explain how you troubleshoot BGP instability.,Short Answer,Networking,Hard,You check peer reachability review route flapping inspect timers and validate prefix filtering,,,,
+Describe how you identify a failing network segment in a large topology.,Short Answer,Networking,Hard,You isolate segments test hop by hop monitor error rates and compare performance across paths,,,,
+Explain how you diagnose multicast issues in an enterprise network.,Short Answer,Networking,Hard,You inspect IGMP behavior verify PIM configuration check rendezvous points and test group propagation,,,,

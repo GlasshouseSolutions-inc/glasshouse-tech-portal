@@ -1,0 +1,11 @@
+question_text,question_type,category,difficulty,expected_answer,choice_a,choice_b,choice_c,choice_d
+Describe how you check if a device is powered on.,Short Answer,Troubleshooting,Easy,You inspect the power light check the switch and verify the outlet works,,,,
+Explain how you test basic connectivity.,Short Answer,Troubleshooting,Easy,You check the network icon run a simple ping and confirm the device has an IP address,,,,
+Describe how you verify that an application is responding.,Short Answer,Troubleshooting,Easy,You click the window check task manager and restart the app if needed,,,,
+Explain how you check whether a cable is connected.,Short Answer,Troubleshooting,Easy,You inspect both ends verify link lights and reseat the connector,,,,
+Describe how you test if a user account is working.,Short Answer,Troubleshooting,Easy,You attempt login check credentials and confirm the account is active,,,,
+Explain how you check whether a printer is online.,Short Answer,Troubleshooting,Easy,You inspect the display check network status and restart the printer,,,,
+Describe how you verify that WiFi is enabled.,Short Answer,Troubleshooting,Easy,You check the WiFi icon open settings and confirm the adapter is on,,,,
+Explain how you test basic audio output.,Short Answer,Troubleshooting,Easy,You check volume settings test with a known sound and verify the device is selected,,,,
+Describe how you check if a website is reachable.,Short Answer,Troubleshooting,Easy,You open the site test another site and check network status,,,,
+Explain how you verify that a device has internet access.,Short Answer,Troubleshooting,Easy,You run a ping test open a webpage and confirm DNS resolution,,,,

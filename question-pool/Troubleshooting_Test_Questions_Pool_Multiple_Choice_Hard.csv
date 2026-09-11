@@ -1,0 +1,50 @@
+question_text,question_type,category,difficulty,expected_answer,choice_a,choice_b,choice_c,choice_d
+What is the most effective way to diagnose intermittent kernel crashes?,Multiple Choice,Troubleshooting,Hard,D,Ignore logs,Replace OS immediately,Guess cause,Analyze crash dumps and hardware interactions
+Which behavior best identifies deep memory corruption?,Multiple Choice,Troubleshooting,Hard,C,Restart device,Delete apps,Ignore symptoms,Run extended memory diagnostics
+What is the most effective way to isolate a race condition?,Multiple Choice,Troubleshooting,Hard,B,Ignore timing,Guess cause,Restart device,Use controlled timing tests and logging
+Which action best identifies a failing CPU?,Multiple Choice,Troubleshooting,Hard,D,Ignore heat,Replace OS,Shake device,Run stress tests and monitor thermal behavior
+What is the most effective way to diagnose phantom network drops?,Multiple Choice,Troubleshooting,Hard,A,Analyze packet captures,Restart building,Replace router,Ignore issue
+Which behavior best identifies a corrupted driver stack?,Multiple Choice,Troubleshooting,Hard,C,Ignore errors,Delete system files,Restart device,Check driver dependencies and logs
+What is the most effective way to troubleshoot cascading failures?,Multiple Choice,Troubleshooting,Hard,B,Fix symptoms only,Ignore root cause,Restart building,Trace failure chain from origin
+Which action best identifies a failing SSD controller?,Multiple Choice,Troubleshooting,Hard,D,Ignore SMART warnings,Delete files,Restart device,Check SMART logs and controller behavior
+What is the most effective way to diagnose DNS propagation issues?,Multiple Choice,Troubleshooting,Hard,A,Check global DNS records,Restart building,Replace modem,Ignore issue
+Which behavior best identifies a memory leak in distributed systems?,Multiple Choice,Troubleshooting,Hard,C,Restart service,Ignore logs,Guess cause,Monitor heap usage over time
+What is the most effective way to troubleshoot intermittent authentication failures?,Multiple Choice,Troubleshooting,Hard,B,Ignore logs,Restart server,Guess cause,Check token expiration and server sync
+Which action best identifies a failing GPU?,Multiple Choice,Troubleshooting,Hard,D,Ignore artifacts,Replace OS,Restart device,Stress test GPU and monitor temps
+What is the most effective way to diagnose deadlocks?,Multiple Choice,Troubleshooting,Hard,A,Analyze thread locks,Restart device,Delete app,Ignore logs
+Which behavior best identifies corrupted system libraries?,Multiple Choice,Troubleshooting,Hard,C,Ignore errors,Delete system,Restart building,Verify library integrity and dependencies
+What is the most effective way to troubleshoot packet loss?,Multiple Choice,Troubleshooting,Hard,B,Ignore network,Replace device,Restart building,Run traceroutes and packet analysis
+Which action best identifies a failing power rail?,Multiple Choice,Troubleshooting,Hard,D,Ignore voltage,Replace OS,Restart device,Measure voltage under load
+What is the most effective way to diagnose intermittent database timeouts?,Multiple Choice,Troubleshooting,Hard,A,Check query performance and server load,Restart building,Replace database,Ignore logs
+Which behavior best identifies corrupted configuration files?,Multiple Choice,Troubleshooting,Hard,C,Ignore errors,Delete configs,Restart device,Validate syntax and compare backups
+What is the most effective way to troubleshoot high-latency microservices?,Multiple Choice,Troubleshooting,Hard,B,Ignore metrics,Restart cluster,Guess cause,Analyze service dependencies and logs
+Which action best identifies a failing NIC?,Multiple Choice,Troubleshooting,Hard,D,Ignore drops,Replace OS,Restart device,Run diagnostics and test under load
+What is the most effective way to diagnose thread starvation?,Multiple Choice,Troubleshooting,Hard,A,Analyze thread scheduling,Restart device,Delete app,Ignore logs
+Which behavior best identifies corrupted boot sectors?,Multiple Choice,Troubleshooting,Hard,C,Ignore boot errors,Delete system,Restart building,Run boot repair tools
+What is the most effective way to troubleshoot intermittent API failures?,Multiple Choice,Troubleshooting,Hard,B,Ignore logs,Restart server,Guess cause,Check rate limits and server health
+Which action best identifies a failing motherboard?,Multiple Choice,Troubleshooting,Hard,D,Ignore symptoms,Replace OS,Restart device,Test components and power delivery
+What is the most effective way to diagnose cascading network congestion?,Multiple Choice,Troubleshooting,Hard,A,Analyze traffic flow,Restart building,Replace router,Ignore issue
+Which behavior best identifies corrupted registry hives?,Multiple Choice,Troubleshooting,Hard,C,Ignore errors,Delete registry,Restart device,Check hive integrity and backups
+What is the most effective way to troubleshoot intermittent storage I/O stalls?,Multiple Choice,Troubleshooting,Hard,B,Ignore stalls,Replace device,Restart building,Analyze I/O patterns and controller logs
+Which action best identifies a failing RAM module?,Multiple Choice,Troubleshooting,Hard,D,Ignore crashes,Delete apps,Restart device,Run extended memory tests
+What is the most effective way to diagnose intermittent SSL failures?,Multiple Choice,Troubleshooting,Hard,A,Check certificate chain and time sync,Restart server,Replace device,Ignore issue
+Which behavior best identifies corrupted system processes?,Multiple Choice,Troubleshooting,Hard,C,Ignore warnings,Delete system,Restart building,Check process integrity and dependencies
+What is the most effective way to troubleshoot intermittent service outages?,Multiple Choice,Troubleshooting,Hard,B,Ignore alerts,Restart cluster,Guess cause,Analyze logs and dependency failures
+Which action best identifies a failing cooling system?,Multiple Choice,Troubleshooting,Hard,D,Ignore heat,Replace OS,Restart device,Monitor temps and fan performance
+What is the most effective way to diagnose intermittent packet duplication?,Multiple Choice,Troubleshooting,Hard,A,Analyze packet captures,Restart building,Replace router,Ignore issue
+Which behavior best identifies corrupted firmware?,Multiple Choice,Troubleshooting,Hard,C,Ignore errors,Delete firmware,Restart device,Check version integrity and reflash
+What is the most effective way to troubleshoot intermittent disk corruption?,Multiple Choice,Troubleshooting,Hard,B,Ignore corruption,Replace device,Restart building,Run disk integrity tools
+Which action best identifies a failing PCIe lane?,Multiple Choice,Troubleshooting,Hard,D,Ignore instability,Replace OS,Restart device,Test bandwidth and device mapping
+What is the most effective way to diagnose intermittent load balancer failures?,Multiple Choice,Troubleshooting,Hard,A,Check health checks and routing,Restart cluster,Replace device,Ignore issue
+Which behavior best identifies corrupted environment variables?,Multiple Choice,Troubleshooting,Hard,C,Ignore errors,Delete variables,Restart device,Verify variable values and paths
+What is the most effective way to troubleshoot intermittent virtualization failures?,Multiple Choice,Troubleshooting,Hard,B,Ignore logs,Restart hypervisor,Guess cause,Check resource allocation and host health
+Which action best identifies a failing RAID controller?,Multiple Choice,Troubleshooting,Hard,D,Ignore warnings,Replace OS,Restart device,Check RAID logs and rebuild status
+What is the most effective way to diagnose intermittent DNS resolution failures?,Multiple Choice,Troubleshooting,Hard,A,Check resolver logs and upstream servers,Restart building,Replace modem,Ignore issue
+Which behavior best identifies corrupted system tasks?,Multiple Choice,Troubleshooting,Hard,C,Ignore failures,Delete tasks,Restart device,Check scheduler logs and task integrity
+What is the most effective way to troubleshoot intermittent GPU driver resets?,Multiple Choice,Troubleshooting,Hard,B,Ignore resets,Replace OS,Restart device,Check driver logs and thermal load
+Which action best identifies a failing network switch?,Multiple Choice,Troubleshooting,Hard,D,Ignore outages,Replace OS,Restart building,Check switch logs and port behavior
+What is the most effective way to diagnose intermittent authentication token failures?,Multiple Choice,Troubleshooting,Hard,A,Check token expiration and server sync,Restart server,Replace device,Ignore issue
+Which behavior best identifies corrupted system dependencies?,Multiple Choice,Troubleshooting,Hard,C,Ignore errors,Delete dependencies,Restart device,Verify dependency chain and reinstall
+What is the most effective way to troubleshoot intermittent service degradation?,Multiple Choice,Troubleshooting,Hard,B,Ignore metrics,Restart cluster,Guess cause,Analyze logs and performance trends
+Which action helps diagnose browser issues?,Multiple Choice,Troubleshooting,Medium,B,Ignore browser,Delete OS,Restart building,Clear cache and disable extensions
+What is the most effective way to troubleshoot sync delays?,Multiple Choice,Troubleshooting,Medium,C,Ignore delay,Replace device,Restart building,Check server load and network

@@ -1,0 +1,51 @@
+question_text,question_type,category,difficulty,expected_answer,choice_a,choice_b,choice_c,choice_d
+What does a default gateway provide in a network?,Multiple Choice,Networking,Hard,A,Path for traffic to exit the local network,DNS resolution,DHCP lease renewal,VLAN tagging
+Which protocol resolves IP addresses to MAC addresses?,Multiple Choice,Networking,Hard,B,DNS,ARP,ICMP,SNMP
+What is the primary purpose of a VLAN?,Multiple Choice,Networking,Hard,C,Increase Wi-Fi speed,Encrypt traffic,Segment broadcast domains,Assign static IPs
+Which OSI layer handles routing?,Multiple Choice,Networking,Hard,D,Layer 2,Layer 4,Layer 5,Layer 3
+What does DHCP primarily assign?,Multiple Choice,Networking,Hard,A,IP addresses,MAC addresses,VLAN IDs,Routing metrics
+Which protocol is used for secure remote device management?,Multiple Choice,Networking,Hard,C,Telnet,FTP,SSH,SMTP
+What is the function of DNS?,Multiple Choice,Networking,Hard,B,Assign IPs,Resolve domain names,Encrypt packets,Manage routing tables
+Which device separates collision domains?,Multiple Choice,Networking,Hard,D,Hub,Repeater,Patch panel,Switch
+What is the purpose of a subnet mask?,Multiple Choice,Networking,Hard,A,Identify network vs host bits,Encrypt traffic,Assign VLANs,Provide DHCP leases
+Which protocol tests reachability between hosts?,Multiple Choice,Networking,Hard,C,DNS,ARP,ICMP,SNMP
+What is the maximum number of hosts in a /24 network?,Multiple Choice,Networking,Hard,B,128,254,512,1022
+Which device creates broadcast domains?,Multiple Choice,Networking,Hard,A,Router,Switch,Hub,Bridge
+What is the purpose of NAT?,Multiple Choice,Networking,Hard,D,VLAN segmentation,DHCP assignment,DNS resolution,Translate private to public IPs
+Which wireless standard supports 5 GHz?,Multiple Choice,Networking,Hard,C,802.11b,802.11g,802.11ac,802.11a
+Which protocol is connection-oriented?,Multiple Choice,Networking,Hard,A,TCP,UDP,ICMP,ARP
+What is the maximum length of a Cat6 cable?,Multiple Choice,Networking,Hard,B,50m,100m,150m,200m
+Which connector type is used for Ethernet?,Multiple Choice,Networking,Hard,A,RJ45,LC,SC,BNC
+What does T568B define?,Multiple Choice,Networking,Hard,C,Fiber polarity,Cable shielding,Copper pinout,Patch panel size
+Which cable type is immune to EMI?,Multiple Choice,Networking,Hard,D,UTP,STP,Coax,Fiber
+What tool is used to terminate RJ45 connectors?,Multiple Choice,Networking,Hard,A,Crimp tool,Punchdown tool,Cable stripper,Tone generator
+Which color pair carries data on pins 1 and 2 in T568B?,Multiple Choice,Networking,Hard,B,Brown,Orange,Green,Blue
+What is the purpose of a patch panel?,Multiple Choice,Networking,Hard,C,Route traffic,Provide DHCP,Organize terminations,Test continuity
+Which fiber connector uses a push-pull mechanism?,Multiple Choice,Networking,Hard,A,LC,SC,ST,FC
+What does PoE deliver over Ethernet?,Multiple Choice,Networking,Hard,D,VLAN tags,DNS,DHCP,Power
+Which cable tester verifies wiremap?,Multiple Choice,Networking,Hard,C,OTDR,TDR,Basic continuity tester,Certifier
+What is the first step in network troubleshooting?,Multiple Choice,Networking,Hard,A,Identify the problem,Replace hardware,Reboot the switch,Change IP settings
+A device has an APIPA address (169.254.x.x). What failed?,Multiple Choice,Networking,Hard,B,DNS,DHCP,Routing,VLAN
+What command checks local IP configuration?,Multiple Choice,Networking,Hard,C,ping,traceroute,ipconfig,nslookup
+What does a blinking link light usually indicate?,Multiple Choice,Networking,Hard,D,Cable failure,No power,Incorrect VLAN,Active traffic
+What is the best tool to locate a cable break?,Multiple Choice,Networking,Hard,A,TDR,Crimper,Punchdown tool,OTDR
+A user cannot reach the internet but can reach local servers. What is likely wrong?,Multiple Choice,Networking,Hard,C,DNS,VLAN,Default gateway,MAC address
+Which command tests DNS resolution?,Multiple Choice,Networking,Hard,B,ping,nslookup,ipconfig,arp
+What does a loop in the network cause?,Multiple Choice,Networking,Hard,D,DHCP failure,DNS errors,Slow Wi-Fi,Broadcast storm
+A switch port shows 'err-disabled.' What is a common cause?,Multiple Choice,Networking,Hard,A,Port security violation,DHCP conflict,DNS timeout,Incorrect subnet mask
+What is the best way to isolate a bad patch cable?,Multiple Choice,Networking,Hard,C,Reboot router,Change VLAN,Swap cable,Reset NIC
+What PPE is required when working in ceiling spaces?,Multiple Choice,Networking,Hard,A,Eye protection,Steel-toe boots,Respirator,Welding mask
+What should you do before using a ladder?,Multiple Choice,Networking,Hard,C,Check cable length,Test Wi-Fi,Inspect for damage,Verify DHCP
+What is the safe way to cut cable?,Multiple Choice,Networking,Hard,B,With a knife,With proper cable cutters,With scissors,With pliers
+What should be avoided near fiber strands?,Multiple Choice,Networking,Hard,D,Patch panels,RJ45 connectors,Cable testers,Bare hands
+What is the first step before working on energized equipment?,Multiple Choice,Networking,Hard,A,Disconnect power,Change VLAN,Ping device,Check DHCP
+Which device provides wireless access?,Multiple Choice,Networking,Hard,C,Switch,Router,Access point,Firewall
+What component stores the MAC address?,Multiple Choice,Networking,Hard,A,NIC,CPU,RAM,SSD
+Which device inspects traffic for threats?,Multiple Choice,Networking,Hard,D,Switch,Patch panel,Access point,Firewall
+What hardware is required for fiber termination?,Multiple Choice,Networking,Hard,B,Crimp tool,Cleaver,Punchdown tool,Tone generator
+Which device connects multiple networks together?,Multiple Choice,Networking,Hard,A,Router,Switch,Hub,Repeater
+What is the correct way to document completed work?,Multiple Choice,Networking,Hard,C,Text the supervisor,Verbally report,Update the ticket,Leave a note on desk
+How should you handle confidential customer information?,Multiple Choice,Networking,Hard,A,Protect and restrict access,Share with coworkers,Store on personal phone,Leave on desk
+What is the best way to communicate delays?,Multiple Choice,Networking,Hard,D,Ignore,Wait until asked,Send a vague message,Notify proactively
+What is the best first step when a customer reports an issue?,Multiple Choice,Networking,Hard,B,Replace hardware,Listen and gather details,Escalate immediately,Blame network
+How should you explain technical issues to customers?,Multiple Choice,Networking,Hard,C,Use jargon,Speak quickly,Use simple language,Avoid answering

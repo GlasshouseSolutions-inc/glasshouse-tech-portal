@@ -1,0 +1,11 @@
+question_text,question_type,category,difficulty,expected_answer,choice_a,choice_b,choice_c,choice_d
+Explain how you diagnose a cable run that fails under heavy data load.,Short Answer,Cabling,Hard,You test for crosstalk signal loss and improper termination using certification tools,,,,
+Describe how you identify hidden damage in long cable runs.,Short Answer,Cabling,Hard,You use TDR tools inspect conduit and locate faults along the cable path,,,,
+Explain how you troubleshoot severe interference affecting a cable run.,Short Answer,Cabling,Hard,You analyze routing shielding and nearby electrical sources and reroute if needed,,,,
+Describe how you verify whether a cable bundle is causing performance degradation.,Short Answer,Cabling,Hard,You check bend radius tension and separation from power lines and test throughput,,,,
+Explain how you diagnose PoE failure on long cable runs.,Short Answer,Cabling,Hard,You measure voltage drop check cable quality and inspect termination integrity,,,,
+Describe how you identify a failing connector that passes basic continuity tests.,Short Answer,Cabling,Hard,You test for intermittent contact inspect pin alignment and replace the connector,,,,
+Explain how you troubleshoot a cable run that intermittently drops gigabit speeds.,Short Answer,Cabling,Hard,You check for microbends poor termination and cable category mismatch,,,,
+Describe the process for validating cable performance in high bandwidth environments.,Short Answer,Cabling,Hard,You use certification tools test throughput and verify signal integrity,,,,
+Explain how you diagnose a cable issue inside conduit.,Short Answer,Cabling,Hard,You use pull tests inspection cameras and TDR readings to locate faults,,,,
+Describe how you evaluate whether a cable installation meets enterprise standards.,Short Answer,Cabling,Hard,You check certification routing support and termination quality thoroughly,,,,

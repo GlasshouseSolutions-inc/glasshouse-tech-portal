@@ -1,0 +1,51 @@
+question_text,question_type,category,difficulty,expected_answer,choice_a,choice_b,choice_c,choice_d
+What component stores the MAC address?,Multiple Choice,Hardware,Easy,A,NIC,CPU,RAM,SSD
+What device provides wireless access?,Multiple Choice,Hardware,Easy,C,Switch,Router,Access point,Firewall
+What does a router primarily do?,Multiple Choice,Hardware,Easy,B,Boost Wi-Fi,Route traffic,Store data,Terminate cables
+What does a switch do?,Multiple Choice,Hardware,Easy,D,Route packets,Assign IPs,Boost Wi-Fi,Connect devices in a LAN
+What is the purpose of a firewall?,Multiple Choice,Hardware,Easy,A,Filter traffic,Assign IPs,Boost Wi-Fi,Store data
+What component stores long-term data?,Multiple Choice,Hardware,Easy,C,RAM,CPU,SSD,NIC
+What component processes instructions?,Multiple Choice,Hardware,Easy,B,SSD,CPU,NIC,Switch
+What does RAM store?,Multiple Choice,Hardware,Easy,D,Long-term files,MAC addresses,Routing tables,Temporary data
+What device connects multiple networks?,Multiple Choice,Hardware,Easy,A,Router,Switch,Hub,Patch panel
+What device repeats signals?,Multiple Choice,Hardware,Easy,C,Router,Switch,Repeater,Firewall
+What device amplifies Wi-Fi coverage?,Multiple Choice,Hardware,Easy,B,Router,Wi-Fi extender,Firewall,Patch panel
+What is the purpose of a modem?,Multiple Choice,Hardware,Easy,D,Switch traffic,Assign IPs,Store data,Convert ISP signal
+What is the purpose of a patch panel?,Multiple Choice,Hardware,Easy,A,Organize terminations,Route traffic,Store data,Assign IPs
+What is the purpose of a UPS?,Multiple Choice,Hardware,Easy,B,Boost Wi-Fi,Provide backup power,Assign IPs,Route packets
+What is the purpose of a surge protector?,Multiple Choice,Hardware,Easy,C,Store data,Route packets,Protect equipment,Assign IPs
+What is the purpose of a power supply?,Multiple Choice,Hardware,Easy,D,Store data,Route packets,Assign IPs,Provide system power
+What is the purpose of a cooling fan?,Multiple Choice,Hardware,Easy,A,Prevent overheating,Store data,Route packets,Assign IPs
+What is the purpose of a heat sink?,Multiple Choice,Hardware,Easy,B,Store data,Dissipate heat,Route packets,Assign IPs
+What is the purpose of a motherboard?,Multiple Choice,Hardware,Easy,C,Store data,Route packets,Connect components,Assign IPs
+What is the purpose of a GPU?,Multiple Choice,Hardware,Easy,D,Store data,Route packets,Assign IPs,Render graphics
+What is the purpose of a NIC?,Multiple Choice,Hardware,Easy,A,Provide network access,Store data,Route packets,Assign IPs
+What is the purpose of a KVM switch?,Multiple Choice,Hardware,Easy,B,Store data,Control multiple computers,Route packets,Assign IPs
+What is the purpose of a rack?,Multiple Choice,Hardware,Easy,C,Store data,Route packets,Organize equipment,Assign IPs
+What is the purpose of a server?,Multiple Choice,Hardware,Easy,D,Store data,Route packets,Assign IPs,Provide services
+What is the purpose of a desktop chassis?,Multiple Choice,Hardware,Easy,A,House components,Store data,Route packets,Assign IPs
+What is the purpose of a laptop battery?,Multiple Choice,Hardware,Easy,B,Route packets,Provide portable power,Store data,Assign IPs
+What is the purpose of a docking station?,Multiple Choice,Hardware,Easy,C,Store data,Route packets,Expand connectivity,Assign IPs
+What is the purpose of a thermal sensor?,Multiple Choice,Hardware,Easy,D,Store data,Route packets,Assign IPs,Monitor temperature
+What is the purpose of a BIOS?,Multiple Choice,Hardware,Easy,A,Initialize hardware,Store data,Route packets,Assign IPs
+What is the purpose of a CMOS battery?,Multiple Choice,Hardware,Easy,B,Route packets,Maintain BIOS settings,Store data,Assign IPs
+What is the purpose of a keyboard?,Multiple Choice,Hardware,Easy,C,Store data,Route packets,Input device,Assign IPs
+What is the purpose of a mouse?,Multiple Choice,Hardware,Easy,D,Store data,Route packets,Assign IPs,Input device
+What is the purpose of a monitor?,Multiple Choice,Hardware,Easy,A,Display output,Store data,Route packets,Assign IPs
+What is the purpose of a printer?,Multiple Choice,Hardware,Easy,B,Store data,Produce physical output,Route packets,Assign IPs
+What is the purpose of a scanner?,Multiple Choice,Hardware,Easy,C,Store data,Route packets,Digitize documents,Assign IPs
+What is the purpose of a webcam?,Multiple Choice,Hardware,Easy,D,Store data,Route packets,Assign IPs,Capture video
+What is the purpose of a speaker?,Multiple Choice,Hardware,Easy,A,Output audio,Store data,Route packets,Assign IPs
+What is the purpose of a microphone?,Multiple Choice,Hardware,Easy,B,Store data,Capture audio,Route packets,Assign IPs
+What is the purpose of a USB hub?,Multiple Choice,Hardware,Easy,C,Store data,Route packets,Expand USB ports,Assign IPs
+What is the purpose of a flash drive?,Multiple Choice,Hardware,Easy,D,Route packets,Assign IPs,Boost Wi-Fi,Portable storage
+What is the purpose of an external hard drive?,Multiple Choice,Hardware,Easy,A,Store data,Route packets,Assign IPs,Boost Wi-Fi
+What is the purpose of a thermal paste?,Multiple Choice,Hardware,Easy,B,Store data,Improve heat transfer,Route packets,Assign IPs
+What is the purpose of a chassis fan?,Multiple Choice,Hardware,Easy,C,Store data,Route packets,Cool components,Assign IPs
+What is the purpose of a power inverter?,Multiple Choice,Hardware,Easy,D,Store data,Route packets,Assign IPs,Convert DC to AC
+What is the purpose of a PoE injector?,Multiple Choice,Hardware,Easy,A,Provide power over Ethernet,Store data,Route packets,Assign IPs
+What is the purpose of a transceiver?,Multiple Choice,Hardware,Easy,B,Store data,Convert electrical to optical signals,Route packets,Assign IPs
+What is the purpose of a patch cable?,Multiple Choice,Hardware,Easy,C,Store data,Route packets,Connect devices,Assign IPs
+What is the purpose of a rack shelf?,Multiple Choice,Hardware,Easy,D,Store data,Route packets,Assign IPs,Hold equipment
+What is the purpose of a cable lock?,Multiple Choice,Hardware,Easy,A,Prevent theft,Store data,Route packets,Assign IPs
+What is the purpose of a laptop dock?,Multiple Choice,Hardware,Easy,B,Store data,Expand connectivity,Route packets,Assign IPs

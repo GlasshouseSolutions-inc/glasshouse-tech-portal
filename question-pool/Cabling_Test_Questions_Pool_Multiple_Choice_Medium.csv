@@ -1,0 +1,52 @@
+question_text,question_type,category,difficulty,expected_answer,choice_a,choice_b,choice_c,choice_d
+What is the maximum channel length for Cat6A?,Multiple Choice,Cabling,Medium,D,50m,75m,90m,100m
+What is the primary benefit of shielded twisted pair?,Multiple Choice,Cabling,Medium,B,Higher speed,Reduced EMI,Lower cost,Easier termination
+What does an OTDR measure?,Multiple Choice,Cabling,Medium,C,Copper continuity,MAC addresses,Fiber reflections,VLAN tags
+What is the typical wavelength for multimode fiber?,Multiple Choice,Cabling,Medium,A,850 nm,1310 nm,1550 nm,1650 nm
+What is the typical wavelength for single-mode fiber?,Multiple Choice,Cabling,Medium,D,850 nm,900 nm,1000 nm,1310/1550 nm
+What connector type uses a bayonet-style lock?,Multiple Choice,Cabling,Medium,B,LC,ST,SC,RJ45
+What is the purpose of a fiber pigtail?,Multiple Choice,Cabling,Medium,C,Route traffic,Assign IPs,Splice fiber to connectors,Boost Wi-Fi
+What is the maximum distance of OM3 fiber at 10Gbps?,Multiple Choice,Cabling,Medium,A,300m,100m,550m,2km
+What is the maximum distance of OM4 fiber at 10Gbps?,Multiple Choice,Cabling,Medium,C,100m,300m,550m,2km
+What is the maximum distance of single-mode fiber at 10Gbps?,Multiple Choice,Cabling,Medium,D,300m,550m,1km,40km
+What does insertion loss represent?,Multiple Choice,Cabling,Medium,A,Signal loss,Signal gain,Noise level,Voltage drop
+What does return loss represent?,Multiple Choice,Cabling,Medium,B,Voltage drop,Reflected signal,Bandwidth,Latency
+What is the purpose of a fiber attenuator?,Multiple Choice,Cabling,Medium,C,Boost signal,Terminate fiber,Reduce signal strength,Assign IPs
+What is the purpose of a splice tray?,Multiple Choice,Cabling,Medium,D,Assign IPs,Boost Wi-Fi,Route packets,Organize fiber splices
+What is the purpose of a cable certification test?,Multiple Choice,Cabling,Medium,A,Verify performance,Assign IPs,Boost Wi-Fi,Route packets
+What is the purpose of a mid-span access?,Multiple Choice,Cabling,Medium,B,Terminate fiber,Tap into fiber,Boost Wi-Fi,Assign IPs
+What is the purpose of a fusion splice?,Multiple Choice,Cabling,Medium,C,Crimp copper,Strip insulation,Join fiber ends,Route packets
+What is the purpose of a mechanical splice?,Multiple Choice,Cabling,Medium,D,Assign IPs,Boost Wi-Fi,Route packets,Join fiber without fusion
+What is the typical core size of multimode fiber?,Multiple Choice,Cabling,Medium,A,50/62.5 µm,9 µm,100 µm,150 µm
+What is the typical core size of single-mode fiber?,Multiple Choice,Cabling,Medium,B,50 µm,9 µm,62.5 µm,100 µm
+What is the purpose of a breakout cable?,Multiple Choice,Cabling,Medium,C,Assign IPs,Boost Wi-Fi,Separate fibers into individual connectors,Route packets
+What is the purpose of a distribution cable?,Multiple Choice,Cabling,Medium,D,Assign IPs,Boost Wi-Fi,Route packets,House multiple fibers
+What is the purpose of a buffer tube?,Multiple Choice,Cabling,Medium,A,Protect fiber,Assign IPs,Boost Wi-Fi,Route packets
+What is the purpose of a fiber coupler?,Multiple Choice,Cabling,Medium,B,Assign IPs,Split or combine signals,Boost Wi-Fi,Route packets
+What is the purpose of a fiber patch cord?,Multiple Choice,Cabling,Medium,C,Assign IPs,Boost Wi-Fi,Connect fiber devices,Route packets
+What is the purpose of a pre-terminated cable?,Multiple Choice,Cabling,Medium,D,Assign IPs,Boost Wi-Fi,Route packets,Factory-installed connectors
+What is the purpose of a cable sheath?,Multiple Choice,Cabling,Medium,A,Protect cable,Assign IPs,Boost Wi-Fi,Route packets
+What is the purpose of a cable riser?,Multiple Choice,Cabling,Medium,B,Boost Wi-Fi,Vertical cable rating,Assign IPs,Route packets
+What is the purpose of plenum cable?,Multiple Choice,Cabling,Medium,C,Boost Wi-Fi,Route packets,Fire-resistant jacket,Assign IPs
+What is the purpose of armored fiber?,Multiple Choice,Cabling,Medium,D,Boost Wi-Fi,Assign IPs,Route packets,Protect fiber from damage
+What is the purpose of a cable comb?,Multiple Choice,Cabling,Medium,A,Organize cables,Assign IPs,Boost Wi-Fi,Route packets
+What is the purpose of a cable gland?,Multiple Choice,Cabling,Medium,B,Boost Wi-Fi,Seal cable entry,Assign IPs,Route packets
+What is the purpose of a fiber distribution frame?,Multiple Choice,Cabling,Medium,C,Assign IPs,Boost Wi-Fi,Organize fiber connections,Route packets
+What is the purpose of a copper distribution frame?,Multiple Choice,Cabling,Medium,D,Assign IPs,Boost Wi-Fi,Route packets,Organize copper terminations
+What is the purpose of a fiber jumper?,Multiple Choice,Cabling,Medium,A,Connect fiber ports,Assign IPs,Boost Wi-Fi,Route packets
+What is the purpose of a cable conduit?,Multiple Choice,Cabling,Medium,B,Assign IPs,Protect cables,Boost Wi-Fi,Route packets
+What is the purpose of a cable raceway?,Multiple Choice,Cabling,Medium,C,Assign IPs,Boost Wi-Fi,Organize cable paths,Route packets
+What is the purpose of a fiber loopback?,Multiple Choice,Cabling,Medium,D,Assign IPs,Boost Wi-Fi,Route packets,Test fiber ports
+What is the purpose of a polarity test?,Multiple Choice,Cabling,Medium,A,Verify correct fiber alignment,Assign IPs,Boost Wi-Fi,Route packets
+What is the purpose of a wiremap test?,Multiple Choice,Cabling,Medium,B,Boost Wi-Fi,Verify pinout,Assign IPs,Route packets
+What is the purpose of NEXT testing?,Multiple Choice,Cabling,Medium,C,Assign IPs,Boost Wi-Fi,Measure crosstalk,Route packets
+What is the purpose of attenuation testing?,Multiple Choice,Cabling,Medium,D,Assign IPs,Boost Wi-Fi,Route packets,Measure signal loss
+What is the purpose of a fiber identifier?,Multiple Choice,Cabling,Medium,A,Detect active fiber,Assign IPs,Boost Wi-Fi,Route packets
+What is the purpose of a cable certifier?,Multiple Choice,Cabling,Medium,B,Assign IPs,Validate cable performance,Boost Wi-Fi,Route packets
+What is the purpose of a breakout kit?,Multiple Choice,Cabling,Medium,C,Assign IPs,Boost Wi-Fi,Prepare fiber for termination,Route packets
+What is the purpose of a splice enclosure?,Multiple Choice,Cabling,Medium,D,Assign IPs,Boost Wi-Fi,Route packets,Protect fiber splices
+What is the purpose of a fiber tray?,Multiple Choice,Cabling,Medium,A,Organize fiber,Assign IPs,Boost Wi-Fi,Route packets
+What is the purpose of a copper lug?,Multiple Choice,Cabling,Medium,B,Boost Wi-Fi,Terminate heavy copper,Assign IPs,Route packets
+What is the purpose of a cable boot?,Multiple Choice,Cabling,Medium,C,Assign IPs,Boost Wi-Fi,Protect connectors,Route packets
+What is the purpose of a fiber polishing film?,Multiple Choice,Cabling,Medium,D,Assign IPs,Boost Wi-Fi,Route packets,Finish fiber ends
+What is the purpose of a cable boot?,Multiple Choice,Cabling,Easy,D,Assign IPs,Boost Wi-Fi,Route packets,Protect connectors

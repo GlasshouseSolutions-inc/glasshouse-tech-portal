@@ -1,0 +1,50 @@
+question_text,question_type,category,difficulty,expected_answer,choice_a,choice_b,choice_c,choice_d
+What is the most effective way to confirm whether an issue is user-specific?,Multiple Choice,Troubleshooting,Medium,C,Restart device,Replace hardware,Test on another user account,Ignore issue
+Which step helps identify intermittent network problems?,Multiple Choice,Troubleshooting,Medium,B,Restart router,Ignore symptoms,Check logs and monitor patterns,Replace all cables
+What is the best way to verify a suspected software bug?,Multiple Choice,Troubleshooting,Medium,D,Guess cause,Ignore behavior,Reinstall OS,Reproduce issue consistently
+Which action helps isolate hardware vs software issues?,Multiple Choice,Troubleshooting,Medium,A,Test with alternate software,Replace device,Ignore errors,Restart building
+What is the most effective way to diagnose slow performance?,Multiple Choice,Troubleshooting,Medium,C,Delete system files,Ignore lag,Check CPU, RAM
+Which behavior improves troubleshooting accuracy?,Multiple Choice,Troubleshooting,Medium,B,Guess solutions,Skip steps,Document findings,Ignore patterns
+What is the best way to confirm a corrupted file?,Multiple Choice,Troubleshooting,Medium,D,Ignore error,Restart device,Delete file,Try opening on another system
+Which action helps identify failing hardware?,Multiple Choice,Troubleshooting,Medium,A,Run diagnostics,Ignore symptoms,Shake device,Replace OS
+What is the most effective way to troubleshoot random shutdowns?,Multiple Choice,Troubleshooting,Medium,C,Ignore issue,Replace battery,Check heat, power
+Which behavior improves root cause identification?,Multiple Choice,Troubleshooting,Medium,D,Skip steps,Guess cause,Ignore evidence,Follow structured process
+What is the best way to confirm a network bottleneck?,Multiple Choice,Troubleshooting,Medium,A,Run speed tests,Restart building,Replace modem,Ignore issue
+Which action helps diagnose permission-related failures?,Multiple Choice,Troubleshooting,Medium,B,Ignore permissions,Delete user,Restart device,Check user rights and access
+What is the most effective way to troubleshoot sync issues?,Multiple Choice,Troubleshooting,Medium,C,Ignore account,Replace device,Verify credentials and server status,Restart building
+Which behavior improves troubleshooting efficiency?,Multiple Choice,Troubleshooting,Medium,D,Work randomly,Skip documentation,Ignore steps,Follow a repeatable workflow
+What is the best way to confirm a DNS issue?,Multiple Choice,Troubleshooting,Medium,A,Try accessing sites by IP,Restart building,Replace router,Ignore issue
+Which action helps diagnose intermittent freezing?,Multiple Choice,Troubleshooting,Medium,B,Ignore freeze,Delete apps,Check resource usage and logs,Replace device
+What is the most effective way to troubleshoot printing delays?,Multiple Choice,Troubleshooting,Medium,C,Replace printer,Ignore queue,Check spooler and network,Restart building
+Which behavior improves troubleshooting communication?,Multiple Choice,Troubleshooting,Medium,D,Use jargon,Ignore user,Interrupt often,Ask clear questions
+What is the best way to confirm a failing hard drive?,Multiple Choice,Troubleshooting,Medium,A,Run SMART tests,Ignore noise,Delete files,Shake device
+Which action helps diagnose display artifacts?,Multiple Choice,Troubleshooting,Medium,B,Ignore screen,Replace OS,Restart building,Check GPU drivers and cables
+What is the most effective way to troubleshoot slow boot times?,Multiple Choice,Troubleshooting,Medium,C,Delete system files,Ignore issue,Check startup apps and disk health,Replace device
+Which behavior improves troubleshooting consistency?,Multiple Choice,Troubleshooting,Medium,D,Skip steps,Guess cause,Ignore logs,Use a standardized checklist
+What is the best way to confirm a memory leak?,Multiple Choice,Troubleshooting,Medium,A,Monitor RAM usage over time,Restart device,Delete apps,Ignore issue
+Which action helps diagnose overheating?,Multiple Choice,Troubleshooting,Medium,B,Ignore heat,Wrap device,Restart building,Check airflow and thermal load
+What is the most effective way to troubleshoot login failures?,Multiple Choice,Troubleshooting,Medium,C,Delete account,Ignore error,Check credentials, permissions
+Which behavior improves troubleshooting accuracy?,Multiple Choice,Troubleshooting,Medium,D,Guess cause,Skip logs,Ignore symptoms,Verify assumptions with tests
+What is the best way to confirm a bandwidth issue?,Multiple Choice,Troubleshooting,Medium,A,Monitor usage,Restart building,Replace router,Ignore issue
+Which action helps diagnose corrupted applications?,Multiple Choice,Troubleshooting,Medium,B,Ignore errors,Delete OS,Restart building,Reinstall or repair application
+What is the most effective way to troubleshoot random disconnects?,Multiple Choice,Troubleshooting,Medium,C,Ignore issue,Replace device,Check signal, drivers
+Which behavior improves troubleshooting documentation?,Multiple Choice,Troubleshooting,Medium,D,Skip notes,Write vague details,Ignore steps,Record clear steps and results
+What is the best way to confirm a firewall block?,Multiple Choice,Troubleshooting,Medium,A,Check firewall rules,Restart building,Replace device,Ignore issue
+Which action helps diagnose slow applications?,Multiple Choice,Troubleshooting,Medium,B,Ignore slowness,Delete app,Restart building,Check network
+What is the most effective way to troubleshoot update failures?,Multiple Choice,Troubleshooting,Medium,C,Ignore errors,Delete system,Restart building,Check storage
+Which behavior improves troubleshooting collaboration?,Multiple Choice,Troubleshooting,Medium,D,Ignore team,Use jargon,Hide findings,Share clear information
+What is the best way to confirm a failing power supply?,Multiple Choice,Troubleshooting,Medium,A,Test with known-good PSU,Ignore symptoms,Shake device,Replace OS
+Which action helps diagnose USB failures?,Multiple Choice,Troubleshooting,Medium,B,Ignore ports,Delete drivers,Restart building,Check drivers and test other ports
+What is the most effective way to troubleshoot lag spikes?,Multiple Choice,Troubleshooting,Medium,C,Ignore lag,Replace device,Check network stability and resource usage,Restart building
+Which behavior improves troubleshooting thoroughness?,Multiple Choice,Troubleshooting,Medium,D,Skip steps,Guess cause,Ignore logs,Verify each component
+What is the best way to confirm a corrupted user profile?,Multiple Choice,Troubleshooting,Medium,A,Test with a new profile,Ignore issue,Delete system,Restart building
+Which action helps diagnose VPN failures?,Multiple Choice,Troubleshooting,Medium,B,Ignore VPN,Delete app,Restart building,Check credentials
+What is the most effective way to troubleshoot audio distortion?,Multiple Choice,Troubleshooting,Medium,C,Ignore sound,Replace speakers,Restart building,Check drivers and audio settings
+Which behavior improves troubleshooting speed?,Multiple Choice,Troubleshooting,Medium,D,Work randomly,Skip tests,Ignore logs,Prioritize likely causes
+What is the best way to confirm a failing network adapter?,Multiple Choice,Troubleshooting,Medium,A,Test with another adapter,Ignore issue,Replace OS,Restart building
+Which action helps diagnose software conflicts?,Multiple Choice,Troubleshooting,Medium,B,Ignore apps,Delete system,Restart building,Check recent installs and logs
+What is the most effective way to troubleshoot random reboots?,Multiple Choice,Troubleshooting,Medium,C,Ignore reboots,Replace device,Restart building,Check heat
+Which behavior improves troubleshooting reliability?,Multiple Choice,Troubleshooting,Medium,D,Skip documentation,Guess cause,Ignore symptoms,Use repeatable methods
+What is the best way to confirm a corrupted registry?,Multiple Choice,Troubleshooting,Medium,A,Check logs and restore points,Ignore issue,Delete registry,Restart building
+Which action helps diagnose browser issues?,Multiple Choice,Troubleshooting,Medium,B,Ignore browser,Delete OS,Restart building,Clear cache and disable extensions
+What is the most effective way to troubleshoot sync delays?,Multiple Choice,Troubleshooting,Medium,C,Ignore delay,Replace device,Restart building,Check server load and network

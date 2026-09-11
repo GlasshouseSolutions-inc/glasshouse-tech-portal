@@ -1,0 +1,11 @@
+question_text,question_type,category,difficulty,expected_answer,choice_a,choice_b,choice_c,choice_d
+Describe how you diagnose a computer that randomly shuts down.,Short Answer,Hardware,Medium,You check power supply health overheating signs and failing internal components,,,,
+Explain how you identify a failing hard drive.,Short Answer,Hardware,Medium,You look for slow performance clicking sounds and repeated read errors,,,,
+Describe how you troubleshoot a monitor that flickers.,Short Answer,Hardware,Medium,You test the cable check the refresh rate and verify the power source stability,,,,
+Explain how you diagnose a system that boots but shows no display.,Short Answer,Hardware,Medium,You check GPU seating monitor input selection and cable integrity,,,,
+Describe how you identify faulty RAM.,Short Answer,Hardware,Medium,You test with memory diagnostics look for crashes and remove sticks one at a time,,,,
+Explain how you troubleshoot a device that disconnects from USB ports.,Short Answer,Hardware,Medium,You test different ports check power draw and inspect the device connector,,,,
+Describe how you diagnose a computer with loud or inconsistent fan noise.,Short Answer,Hardware,Medium,You check for dust buildup worn bearings and blocked airflow paths,,,,
+Explain how you identify a failing power supply.,Short Answer,Hardware,Medium,You test voltage stability listen for noise and check for random shutdowns,,,,
+Describe how you troubleshoot a printer that jams frequently.,Short Answer,Hardware,Medium,You inspect rollers check paper quality and look for worn internal parts,,,,
+Explain how you diagnose a laptop that overheats only under load.,Short Answer,Hardware,Medium,You check thermal paste fan performance and airflow restrictions,,,,

@@ -1,0 +1,11 @@
+question_text,question_type,category,difficulty,expected_answer,choice_a,choice_b,choice_c,choice_d
+Describe how you check whether a device is connected to the network.,Short Answer,Networking,Easy,You verify the network icon test basic connectivity and check the device IP address,,,,
+Explain how you determine if a network cable is plugged in correctly.,Short Answer,Networking,Easy,You inspect both ends ensure they click into place and confirm link lights are active,,,,
+Describe how you test basic internet connectivity.,Short Answer,Networking,Easy,You open a browser run a simple ping and confirm the device receives a valid IP address,,,,
+Explain how you identify a simple WiFi connection issue.,Short Answer,Networking,Easy,You check signal strength verify the correct network and restart the wireless adapter,,,,
+Describe how you confirm that a router is powered on.,Short Answer,Networking,Easy,You check the power light inspect the cable and verify the device is warm or active,,,,
+Explain how you check whether a switch port is functioning.,Short Answer,Networking,Easy,You look for link lights test with another device and verify the port responds,,,,
+Describe how you determine if a device has the correct network settings.,Short Answer,Networking,Easy,You check IP configuration DNS settings and gateway information,,,,
+Explain how you test whether a firewall is blocking access.,Short Answer,Networking,Easy,You try accessing the resource from another device and review basic firewall rules,,,,
+Describe how you verify that a WiFi password is correct.,Short Answer,Networking,Easy,You reenter the password test another device and confirm the network accepts the credentials,,,,
+Explain how you check if a modem is receiving a signal.,Short Answer,Networking,Easy,You inspect the signal lights restart the modem and confirm the ISP connection is active,,,,

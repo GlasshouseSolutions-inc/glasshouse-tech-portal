@@ -1,0 +1,50 @@
+question_text,question_type,category,difficulty,expected_answer,choice_a,choice_b,choice_c,choice_d
+What is the first step in basic troubleshooting?,Multiple Choice,Troubleshooting,Easy,C,Replace parts randomly,Restart everything,Identify the problem,Ignore symptoms
+Why is it important to ask clarifying questions?,Multiple Choice,Troubleshooting,Easy,A,Understand the issue,Confuse the user,Delay resolution,Ignore details
+What should you do if a device won't turn on?,Multiple Choice,Troubleshooting,Easy,B,Replace it immediately,Check power connections,Ignore it,Shake the device
+What is a simple way to verify a network issue?,Multiple Choice,Troubleshooting,Easy,D,Restart the building,Ignore the problem,Replace all cables,Check if other devices are affected
+What should you do when an app freezes?,Multiple Choice,Troubleshooting,Easy,A,Close and reopen it,Delete the app,Restart the internet,Ignore the issue
+Why is rebooting often effective?,Multiple Choice,Troubleshooting,Easy,C,Breaks the device,Deletes files,Resets temporary issues,Slows performance
+What should you check first when Wi-Fi drops?,Multiple Choice,Troubleshooting,Easy,D,Replace router,Move buildings,Ignore it,Check signal and connections
+What is a basic step when audio isn't working?,Multiple Choice,Troubleshooting,Easy,A,Check volume settings,Replace speakers,Restart the building,Ignore the issue
+What should you do if a password doesn't work?,Multiple Choice,Troubleshooting,Easy,B,Guess repeatedly,Verify caps lock,Delete the account,Ignore login
+Why is documenting issues helpful?,Multiple Choice,Troubleshooting,Easy,C,Confuses others,Slows work,Tracks patterns and fixes,Hides problems
+What should you do when a printer won't print?,Multiple Choice,Troubleshooting,Easy,D,Replace printer,Ignore errors,Shake it,Check queue and connections
+What is a simple way to test internet connectivity?,Multiple Choice,Troubleshooting,Easy,A,Open a website,Restart computer,Replace modem,Ignore issue
+What should you do when a screen is blank?,Multiple Choice,Troubleshooting,Easy,B,Replace monitor,Check power and cables,Ignore it,Hit the screen
+Why is checking cables important?,Multiple Choice,Troubleshooting,Easy,C,Breaks equipment,Wastes time,Fixes loose connections,Slows performance
+What should you do when an app won't install?,Multiple Choice,Troubleshooting,Easy,D,Delete system files,Ignore errors,Restart device,Check storage and permissions
+What is a basic step when sound is distorted?,Multiple Choice,Troubleshooting,Easy,A,Check audio source,Replace device,Ignore issue,Turn off sound
+What should you do when a device overheats?,Multiple Choice,Troubleshooting,Easy,B,Ignore heat,Wrap it in blankets,Use near fire,Turn it off and cool down
+Why is checking updates helpful?,Multiple Choice,Troubleshooting,Easy,C,Breaks apps,Slows device,Fixes bugs and improves stability,Deletes files
+What should you do when Bluetooth won't connect?,Multiple Choice,Troubleshooting,Easy,D,Replace device,Ignore issue,Restart building,Toggle Bluetooth and re-pair
+What is a simple step when apps run slowly?,Multiple Choice,Troubleshooting,Easy,A,Close background apps,Delete system,Ignore issue,Break device
+What should you do when a file won't open?,Multiple Choice,Troubleshooting,Easy,B,Delete file,Ignore error,Restart computer,Check file type compatibility
+Why is checking error messages useful?,Multiple Choice,Troubleshooting,Easy,C,Confuses user,Slows work,Provides clues to the issue,Hides problems
+What should you do when a keyboard stops responding?,Multiple Choice,Troubleshooting,Easy,D,Replace computer,Ignore issue,Hit keys harder,Check connection or batteries
+What is a basic step when a mouse won't move?,Multiple Choice,Troubleshooting,Easy,A,Check surface and connection,Replace desk,Ignore issue,Shake mouse
+What should you do when a device is lagging?,Multiple Choice,Troubleshooting,Easy,B,Ignore lag,Delete apps,Restart device,Break device
+Why is isolating variables important?,Multiple Choice,Troubleshooting,Easy,C,Complicates issue,Slows work,Helps identify root cause,Creates new problems
+What should you do when a webpage won't load?,Multiple Choice,Troubleshooting,Easy,D,Replace computer,Ignore issue,Restart building,Check internet and try another site
+What is a simple step when a device won't charge?,Multiple Choice,Troubleshooting,Easy,A,Check cable and port,Replace battery immediately,Ignore issue,Shake device
+What should you do when a program crashes?,Multiple Choice,Troubleshooting,Easy,B,Ignore crash,Delete program,Restart device,Check for updates
+Why is checking settings important?,Multiple Choice,Troubleshooting,Easy,C,Breaks device,Wastes time,Fixes misconfigurations,Slows system
+What should you do when a device won't sync?,Multiple Choice,Troubleshooting,Easy,D,Ignore issue,Replace device,Restart building,Check account and connection
+What is a basic step when video won't play?,Multiple Choice,Troubleshooting,Easy,A,Check internet and format,Delete video,Ignore issue,Restart building
+What should you do when icons disappear?,Multiple Choice,Troubleshooting,Easy,B,Delete system,Ignore issue,Restart building,Check display settings
+Why is checking permissions important?,Multiple Choice,Troubleshooting,Easy,C,Breaks apps,Slows device,Allows proper access,Hides files
+What should you do when a device freezes?,Multiple Choice,Troubleshooting,Easy,D,Ignore freeze,Hit device,Delete apps,Force restart
+What is a simple step when apps won't update?,Multiple Choice,Troubleshooting,Easy,A,Check storage and internet,Delete apps,Ignore issue,Restart building
+What should you do when notifications stop?,Multiple Choice,Troubleshooting,Easy,B,Ignore issue,Delete system,Restart building,Check notification settings
+Why is checking logs helpful?,Multiple Choice,Troubleshooting,Easy,C,Confuses user,Slows work,Shows error details,Hides issues
+What should you do when a device is slow to boot?,Multiple Choice,Troubleshooting,Easy,D,Replace device,Ignore issue,Delete files,Check startup apps
+What is a basic step when apps won't open?,Multiple Choice,Troubleshooting,Easy,A,Restart app or device,Delete system,Ignore issue,Break device
+What should you do when a device disconnects often?,Multiple Choice,Troubleshooting,Easy,B,Ignore issue,Replace router,Restart building,Check network stability
+Why is checking compatibility important?,Multiple Choice,Troubleshooting,Easy,C,Breaks apps,Wastes time,Ensures proper function,Slows device
+What should you do when a device won't update?,Multiple Choice,Troubleshooting,Easy,D,Ignore update,Delete system,Restart building,Check storage and internet
+What is a simple step when apps behave strangely?,Multiple Choice,Troubleshooting,Easy,A,Restart app,Delete device,Ignore issue,Break system
+What should you do when a device keeps restarting?,Multiple Choice,Troubleshooting,Easy,B,Ignore issue,Delete apps,Replace building,Check battery and software
+Why is checking hardware important?,Multiple Choice,Troubleshooting,Easy,C,Breaks device,Wastes time,Identifies physical issues,Slows system
+What should you do when a device won't connect?,Multiple Choice,Troubleshooting,Easy,D,Ignore issue,Replace device,Restart building,Check network and settings
+What is a basic step when storage is full?,Multiple Choice,Troubleshooting,Easy,A,Delete unnecessary files,Delete system,Ignore issue,Break device
+What should you do when apps crash repeatedly?,Multiple Choice,Troubleshooting,Easy,B,Ignore crashes,Delete system,Restart building,Update or reinstall app

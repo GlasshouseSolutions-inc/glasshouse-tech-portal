@@ -1,0 +1,11 @@
+question_text,question_type,category,difficulty,expected_answer,choice_a,choice_b,choice_c,choice_d
+Describe how you diagnose a system experiencing random crashes.,Short Answer,Troubleshooting,Hard,You analyze logs test hardware inspect drivers and monitor stability,,,,
+Explain how you troubleshoot severe network latency.,Short Answer,Troubleshooting,Hard,You measure path performance inspect routing analyze congestion and test interfaces,,,,
+Describe how you diagnose a device with persistent authentication failures.,Short Answer,Troubleshooting,Hard,You inspect domain trust verify policies check logs and test connectivity,,,,
+Explain how you troubleshoot a system with corrupted files.,Short Answer,Troubleshooting,Hard,You run integrity scans review logs replace damaged files and test stability,,,,
+Describe how you diagnose a device that cannot reach critical internal resources.,Short Answer,Troubleshooting,Hard,You inspect firewall rules verify routing and test resource availability,,,,
+Explain how you troubleshoot a system with recurring performance spikes.,Short Answer,Troubleshooting,Hard,You monitor processes inspect scheduled tasks and analyze resource bottlenecks,,,,
+Describe how you diagnose a device with unstable drivers.,Short Answer,Troubleshooting,Hard,You review crash logs test driver versions and roll back unstable updates,,,,
+Explain how you troubleshoot a system with intermittent hardware failures.,Short Answer,Troubleshooting,Hard,You test components monitor error rates and isolate failing hardware,,,,
+Describe how you diagnose a device with persistent packet loss.,Short Answer,Troubleshooting,Hard,You inspect interfaces test cabling analyze switch logs and monitor throughput,,,,
+Explain how you troubleshoot a system with complex multi layer issues.,Short Answer,Troubleshooting,Hard,You isolate layers test dependencies review logs and resolve issues step by step,,,,

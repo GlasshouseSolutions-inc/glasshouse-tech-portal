@@ -1,0 +1,11 @@
+question_text,question_type,category,difficulty,expected_answer,choice_a,choice_b,choice_c,choice_d
+Describe how you diagnose a motherboard that intermittently fails to boot.,Short Answer,Hardware,Hard,You test power delivery inspect capacitors check component seating and rule out connected hardware,,,,
+Explain how you identify a CPU that is throttling under load.,Short Answer,Hardware,Hard,You monitor temperatures check cooling performance and verify thermal paste condition,,,,
+Describe how you troubleshoot a system with recurring GPU crashes.,Short Answer,Hardware,Hard,You test drivers check power supply stability monitor temperatures and test the GPU in another system,,,,
+Explain how you diagnose a computer that randomly loses power.,Short Answer,Hardware,Hard,You test the power supply inspect the motherboard and check for shorts or failing components,,,,
+Describe how you identify a failing NVMe or SSD.,Short Answer,Hardware,Hard,You check SMART data look for slow writes and test for sudden disconnects during operation,,,,
+Explain how you troubleshoot a system with corrupted BIOS settings.,Short Answer,Hardware,Hard,You reset CMOS update BIOS and test stability after restoring default configuration,,,,
+Describe how you diagnose a laptop with intermittent charging.,Short Answer,Hardware,Hard,You test the charger inspect the port check battery health and verify power controller behavior,,,,
+Explain how you identify a faulty expansion card.,Short Answer,Hardware,Hard,You test the card in another system check slot integrity and monitor for driver or hardware failures,,,,
+Describe how you troubleshoot a server experiencing thermal spikes.,Short Answer,Hardware,Hard,You inspect airflow check fan performance verify sensor accuracy and test cooling redundancy,,,,
+Explain how you diagnose a system that fails only after long uptime.,Short Answer,Hardware,Hard,You check memory stability monitor temperatures test power consistency and look for component fatigue,,,,

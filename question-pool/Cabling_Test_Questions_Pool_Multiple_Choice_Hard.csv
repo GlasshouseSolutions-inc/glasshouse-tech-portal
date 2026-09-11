@@ -1,0 +1,52 @@
+question_text,question_type,category,difficulty,expected_answer,choice_a,choice_b,choice_c,choice_d
+What is the maximum insertion loss allowed for a single-mode LC connector?,Multiple Choice,Cabling,Hard,B,0.1 dB,0.3 dB,0.5 dB,1.0 dB
+What is the typical return loss requirement for APC connectors?,Multiple Choice,Cabling,Hard,D,20 dB,35 dB,45 dB,60 dB
+What is the maximum allowable splice loss for fusion splicing?,Multiple Choice,Cabling,Hard,A,0.1 dB,0.3 dB,0.5 dB,1.0 dB
+What is the primary cause of modal dispersion?,Multiple Choice,Cabling,Hard,C,Copper noise,EMI,Multiple light paths,Incorrect pinout
+What is the maximum distance for 40GBASE-SR4 over OM4?,Multiple Choice,Cabling,Hard,B,100m,150m,300m,400m
+What is the maximum distance for 100GBASE-LR4?,Multiple Choice,Cabling,Hard,D,300m,1km,10km,10km+
+What is the purpose of bend-insensitive fiber?,Multiple Choice,Cabling,Hard,A,Reduce bend loss,Increase bandwidth,Boost Wi-Fi,Assign IPs
+What is the typical cladding diameter of fiber?,Multiple Choice,Cabling,Hard,B,50 µm,125 µm,150 µm,200 µm
+What is the purpose of a mode conditioning patch cord?,Multiple Choice,Cabling,Hard,C,Assign IPs,Boost Wi-Fi,Reduce differential mode delay,Route packets
+What is the maximum channel length for Cat8?,Multiple Choice,Cabling,Hard,D,10m,20m,30m,30m
+What is the primary cause of FEXT?,Multiple Choice,Cabling,Hard,A,Signal coupling at far end,Signal coupling at near end,EMI,Incorrect pinout
+What is the primary cause of alien crosstalk?,Multiple Choice,Cabling,Hard,B,Incorrect pinout,Adjacent cable interference,Fiber reflections,Voltage drop
+What is the maximum allowable NEXT for Cat6A?,Multiple Choice,Cabling,Hard,C,20 dB,30 dB,40 dB,50 dB
+What is the maximum allowable PSANEXT for Cat6A?,Multiple Choice,Cabling,Hard,D,20 dB,30 dB,40 dB,50 dB+
+What is the typical fiber dispersion at 1550 nm?,Multiple Choice,Cabling,Hard,A,17 ps/nm/km,10 ps/nm/km,5 ps/nm/km,1 ps/nm/km
+What is the purpose of chromatic dispersion compensation?,Multiple Choice,Cabling,Hard,B,Boost Wi-Fi,Correct wavelength spreading,Assign IPs,Route packets
+What is the purpose of polarization mode dispersion compensation?,Multiple Choice,Cabling,Hard,C,Assign IPs,Boost Wi-Fi,Correct polarization delay,Route packets
+What is the maximum loss budget for a 10km SMF link?,Multiple Choice,Cabling,Hard,D,1 dB,2 dB,3 dB,5 dB
+What is the typical splice loss for mechanical splicing?,Multiple Choice,Cabling,Hard,A,0.2-0.5 dB,0.1 dB,1 dB,2 dB
+What is the typical connector loss for SC UPC?,Multiple Choice,Cabling,Hard,B,0.1 dB,0.3 dB,0.5 dB,1.0 dB
+What is the typical connector loss for SC APC?,Multiple Choice,Cabling,Hard,C,0.1 dB,0.3 dB,0.5 dB,1.0 dB
+What is the purpose of a fiber mux/demux?,Multiple Choice,Cabling,Hard,D,Assign IPs,Boost Wi-Fi,Route packets,Combine/split wavelengths
+What is the purpose of DWDM?,Multiple Choice,Cabling,Hard,A,Dense wavelength multiplexing,Assign IPs,Boost Wi-Fi,Route packets
+What is the purpose of CWDM?,Multiple Choice,Cabling,Hard,B,Assign IPs,Coarse wavelength multiplexing,Boost Wi-Fi,Route packets
+What is the typical spacing for DWDM channels?,Multiple Choice,Cabling,Hard,C,10 GHz,20 GHz,50 GHz,100 GHz
+What is the typical spacing for CWDM channels?,Multiple Choice,Cabling,Hard,D,10 GHz,20 GHz,50 GHz,20 nm
+What is the purpose of an EDFA?,Multiple Choice,Cabling,Hard,A,Amplify optical signals,Assign IPs,Boost Wi-Fi,Route packets
+What is the purpose of Raman amplification?,Multiple Choice,Cabling,Hard,B,Assign IPs,Distributed optical gain,Boost Wi-Fi,Route packets
+What is the purpose of a fiber isolator?,Multiple Choice,Cabling,Hard,C,Assign IPs,Boost Wi-Fi,Prevent back reflections,Route packets
+What is the purpose of a fiber circulator?,Multiple Choice,Cabling,Hard,D,Assign IPs,Boost Wi-Fi,Route packets,Direct light between ports
+What is the purpose of a fiber Bragg grating?,Multiple Choice,Cabling,Hard,A,Reflect specific wavelengths,Assign IPs,Boost Wi-Fi,Route packets
+What is the purpose of a splice-on connector?,Multiple Choice,Cabling,Hard,B,Boost Wi-Fi,Fusion attach connector,Assign IPs,Route packets
+What is the purpose of a fiber loopback plug?,Multiple Choice,Cabling,Hard,C,Assign IPs,Boost Wi-Fi,Test transceivers,Route packets
+What is the purpose of a bi-directional OTDR?,Multiple Choice,Cabling,Hard,D,Assign IPs,Boost Wi-Fi,Route packets,Measure both directions
+What is the purpose of a launch cable?,Multiple Choice,Cabling,Hard,A,Stabilize OTDR trace,Assign IPs,Boost Wi-Fi,Route packets
+What is the purpose of a receive cable?,Multiple Choice,Cabling,Hard,B,Assign IPs,Capture end reflections,Boost Wi-Fi,Route packets
+What is the purpose of a fiber splitter?,Multiple Choice,Cabling,Hard,C,Assign IPs,Boost Wi-Fi,Divide optical power,Route packets
+What is the purpose of a fiber combiner?,Multiple Choice,Cabling,Hard,D,Assign IPs,Boost Wi-Fi,Route packets,Combine optical power
+What is the purpose of a fiber switch?,Multiple Choice,Cabling,Hard,A,Switch optical paths,Assign IPs,Boost Wi-Fi,Route packets
+What is the purpose of a fiber tap?,Multiple Choice,Cabling,Hard,B,Assign IPs,Monitor optical signal,Boost Wi-Fi,Route packets
+What is the purpose of a fiber attenuator pad?,Multiple Choice,Cabling,Hard,C,Assign IPs,Boost Wi-Fi,Reduce optical power,Route packets
+What is the purpose of a fiber mode scrambler?,Multiple Choice,Cabling,Hard,D,Assign IPs,Boost Wi-Fi,Route packets,Randomize mode distribution
+What is the purpose of a fiber equalizer?,Multiple Choice,Cabling,Hard,A,Balance optical power,Assign IPs,Boost Wi-Fi,Route packets
+What is the purpose of a fiber dispersion compensator?,Multiple Choice,Cabling,Hard,B,Assign IPs,Correct dispersion,Boost Wi-Fi,Route packets
+What is the purpose of a fiber amplifier?,Multiple Choice,Cabling,Hard,C,Assign IPs,Boost Wi-Fi,Increase optical power,Route packets
+What is the purpose of a fiber wavelength locker?,Multiple Choice,Cabling,Hard,D,Assign IPs,Boost Wi-Fi,Route packets,Stabilize laser wavelength
+What is the purpose of a fiber polarization controller?,Multiple Choice,Cabling,Hard,A,Adjust polarization,Assign IPs,Boost Wi-Fi,Route packets
+What is the purpose of a fiber polarization splitter?,Multiple Choice,Cabling,Hard,B,Assign IPs,Separate polarization modes,Boost Wi-Fi,Route packets
+What is the purpose of a fiber polarization combiner?,Multiple Choice,Cabling,Hard,C,Assign IPs,Boost Wi-Fi,Combine polarization modes,Route packets
+What is the purpose of a fiber wavelength converter?,Multiple Choice,Cabling,Hard,D,Assign IPs,Boost Wi-Fi,Route packets,Shift optical wavelength
+What is the purpose of a cable boot?,Multiple Choice,Cabling,Easy,D,Assign IPs,Boost Wi-Fi,Route packets,Protect connectors

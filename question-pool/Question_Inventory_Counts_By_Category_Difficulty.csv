@@ -1,0 +1,34 @@
+category,difficulty,count
+Cabling,Easy,50
+Cabling,Hard,50
+Cabling,Medium,49
+Customer Service,Easy,42
+Customer Service,Hard,51
+Customer Service,Medium,40
+Hardware,Easy,50
+Hardware,Hard,26
+Hardware,Medium,24
+Human Resources,Easy,51
+Human Resources,Hard,52
+Human Resources,Medium,51
+Leadership,Easy,46
+Leadership,Hard,51
+Leadership,Medium,49
+Marketing,Easy,50
+Marketing,Hard,48
+Marketing,Medium,49
+Networking,Easy,51
+Networking,Hard,49
+Networking,Medium,49
+Professionalism,Easy,37
+Professionalism,Hard,50
+Professionalism,Medium,37
+Safety,Easy,50
+Safety,Hard,49
+Safety,Medium,49
+Sales,Easy,49
+Sales,Hard,50
+Sales,Medium,49
+Troubleshooting,Easy,49
+Troubleshooting,Hard,47
+Troubleshooting,Medium,48

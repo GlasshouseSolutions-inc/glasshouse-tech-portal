@@ -1,0 +1,11 @@
+question_text,question_type,category,difficulty,expected_answer,choice_a,choice_b,choice_c,choice_d
+Describe how you diagnose a device that receives an IP address but cannot reach the internet.,Short Answer,Networking,Medium,You check gateway reachability verify DNS settings and test routing paths,,,,
+Explain how you troubleshoot a switch port that shows link but no data flow.,Short Answer,Networking,Medium,You check VLAN assignment inspect port configuration and test with another device,,,,
+Describe how you identify a network loop.,Short Answer,Networking,Medium,You look for high CPU on switches check spanning tree status and trace redundant connections,,,,
+Explain how you diagnose intermittent WiFi drops.,Short Answer,Networking,Medium,You check signal interference review channel usage and test access point load,,,,
+Describe how you troubleshoot slow network performance.,Short Answer,Networking,Medium,You test latency measure bandwidth check congestion and inspect cabling quality,,,,
+Explain how you identify a DHCP issue.,Short Answer,Networking,Medium,You check scope availability verify server reachability and confirm correct relay configuration,,,,
+Describe how you diagnose a device that cannot reach a specific internal resource.,Short Answer,Networking,Medium,You check firewall rules verify routing and confirm the resource responds to network requests,,,,
+Explain how you troubleshoot a VLAN mismatch.,Short Answer,Networking,Medium,You compare switch port settings check trunk configuration and verify tagging on connected devices,,,,
+Describe how you identify a failing network interface.,Short Answer,Networking,Medium,You test throughput monitor errors and swap the interface to confirm the issue,,,,
+Explain how you diagnose packet loss on a wired connection.,Short Answer,Networking,Medium,You test cable integrity check switch logs and monitor for errors on the interface,,,,

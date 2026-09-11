@@ -1,0 +1,51 @@
+question_text,question_type,category,difficulty,expected_answer,choice_a,choice_b,choice_c,choice_d
+What is the purpose of ECC memory?,Multiple Choice,Hardware,Medium,C,Store more data,Increase speed,Detect and correct errors,Reduce heat
+What is the purpose of a RAID controller?,Multiple Choice,Hardware,Medium,D,Route packets,Assign IPs,Boost Wi-Fi,Manage disk redundancy
+What is the purpose of RAID 1?,Multiple Choice,Hardware,Medium,A,Mirroring,Striping,Parity,Hot spare
+What is the purpose of RAID 5?,Multiple Choice,Hardware,Medium,B,Mirroring,Striping with parity,Striping only,Full redundancy
+What is the purpose of RAID 10?,Multiple Choice,Hardware,Medium,C,Parity only,Striping only,Striping + mirroring,Hot spare
+What is the purpose of a SFP module?,Multiple Choice,Hardware,Medium,D,Store data,Assign IPs,Route packets,Provide optical/copper interface
+What is the purpose of a UPS with AVR?,Multiple Choice,Hardware,Medium,A,Voltage regulation,Assign IPs,Route packets,Store data
+What is the purpose of a hot-swappable drive?,Multiple Choice,Hardware,Medium,B,Assign IPs,Replace without shutdown,Route packets,Store BIOS
+What is the purpose of a blade server?,Multiple Choice,Hardware,Medium,C,Store data,Route packets,High-density computing,Assign IPs
+What is the purpose of a redundant PSU?,Multiple Choice,Hardware,Medium,D,Store data,Route packets,Assign IPs,Prevent downtime
+What is the purpose of a thermal throttle?,Multiple Choice,Hardware,Medium,A,Reduce CPU speed under heat,Assign IPs,Route packets,Store data
+What is the purpose of a chipset?,Multiple Choice,Hardware,Medium,B,Store data,Manage CPU communication,Route packets,Assign IPs
+What is the purpose of a PCIe slot?,Multiple Choice,Hardware,Medium,C,Store data,Route packets,Connect expansion cards,Assign IPs
+What is the purpose of NVMe?,Multiple Choice,Hardware,Medium,D,Route packets,Assign IPs,Boost Wi-Fi,High-speed storage interface
+What is the purpose of a GPU VRAM?,Multiple Choice,Hardware,Medium,A,Store graphics data,Assign IPs,Route packets,Store BIOS
+What is the purpose of a thermal probe?,Multiple Choice,Hardware,Medium,B,Store data,Monitor temperature,Route packets,Assign IPs
+What is the purpose of a fan curve?,Multiple Choice,Hardware,Medium,C,Store data,Route packets,Control fan speed,Assign IPs
+What is the purpose of a BIOS update?,Multiple Choice,Hardware,Medium,D,Store data,Route packets,Assign IPs,Improve hardware compatibility
+What is the purpose of a POST test?,Multiple Choice,Hardware,Medium,A,Verify hardware,Assign IPs,Route packets,Store data
+What is the purpose of a KVM over IP?,Multiple Choice,Hardware,Medium,B,Store data,Remote server control,Route packets,Assign IPs
+What is the purpose of a rack PDU?,Multiple Choice,Hardware,Medium,C,Store data,Route packets,Distribute power,Assign IPs
+What is the purpose of a grounding strap?,Multiple Choice,Hardware,Medium,D,Store data,Route packets,Assign IPs,Prevent static discharge
+What is the purpose of a thermal pad?,Multiple Choice,Hardware,Medium,A,Transfer heat,Assign IPs,Route packets,Store data
+What is the purpose of a server backplane?,Multiple Choice,Hardware,Medium,B,Store data,Connect drives,Route packets,Assign IPs
+What is the purpose of a fiber transceiver?,Multiple Choice,Hardware,Medium,C,Store data,Assign IPs,Convert optical signals,Route packets
+What is the purpose of a PoE switch?,Multiple Choice,Hardware,Medium,D,Store data,Route packets,Assign IPs,Provide power + data
+What is the purpose of a BIOS checksum?,Multiple Choice,Hardware,Medium,A,Verify integrity,Assign IPs,Route packets,Store data
+What is the purpose of a CPU cache?,Multiple Choice,Hardware,Medium,B,Store BIOS,Route packets,Assign IPs,Store frequently used data
+What is the purpose of a DIMM slot?,Multiple Choice,Hardware,Medium,C,Store data,Route packets,Hold RAM modules,Assign IPs
+What is the purpose of a VRM?,Multiple Choice,Hardware,Medium,D,Store data,Route packets,Assign IPs,Regulate CPU voltage
+What is the purpose of a thermal envelope?,Multiple Choice,Hardware,Medium,A,Define heat limits,Assign IPs,Route packets,Store data
+What is the purpose of a server rail kit?,Multiple Choice,Hardware,Medium,B,Store data,Mount servers,Route packets,Assign IPs
+What is the purpose of a SAS controller?,Multiple Choice,Hardware,Medium,C,Store data,Route packets,Manage enterprise drives,Assign IPs
+What is the purpose of a fiber patch panel?,Multiple Choice,Hardware,Medium,D,Store data,Route packets,Assign IPs,Organize fiber connections
+What is the purpose of a copper patch panel?,Multiple Choice,Hardware,Medium,A,Organize copper terminations,Assign IPs,Route packets,Store data
+What is the purpose of a server cage nut?,Multiple Choice,Hardware,Medium,B,Store data,Mount equipment,Route packets,Assign IPs
+What is the purpose of a redundant fan array?,Multiple Choice,Hardware,Medium,C,Store data,Route packets,Prevent overheating,Assign IPs
+What is the purpose of a hot aisle?,Multiple Choice,Hardware,Medium,D,Store data,Assign IPs,Route packets,Manage airflow
+What is the purpose of a cold aisle?,Multiple Choice,Hardware,Medium,A,Provide cool intake,Assign IPs,Route packets,Store data
+What is the purpose of a server bezel?,Multiple Choice,Hardware,Medium,B,Store data,Protect front components,Route packets,Assign IPs
+What is the purpose of a fiber LC connector?,Multiple Choice,Hardware,Medium,C,Store data,Route packets,High-density fiber connection,Assign IPs
+What is the purpose of a UPS runtime calculation?,Multiple Choice,Hardware,Medium,D,Store data,Route packets,Assign IPs,Estimate backup duration
+What is the purpose of a server heartbeat LED?,Multiple Choice,Hardware,Medium,A,Indicate system status,Assign IPs,Route packets,Store data
+What is the purpose of a redundant network link?,Multiple Choice,Hardware,Medium,B,Store data,Prevent downtime,Route packets,Assign IPs
+What is the purpose of a fiber SFP+ module?,Multiple Choice,Hardware,Medium,C,Store data,Assign IPs,10Gbps optical interface,Route packets
+What is the purpose of a rack grounding bar?,Multiple Choice,Hardware,Medium,D,Store data,Route packets,Assign IPs,Prevent electrical faults
+What is the purpose of a server riser card?,Multiple Choice,Hardware,Medium,A,Expand PCIe slots,Assign IPs,Route packets,Store data
+What is the purpose of a blade chassis?,Multiple Choice,Hardware,Medium,B,Store data,House blade servers,Route packets,Assign IPs
+What is the purpose of a fiber MPO connector?,Multiple Choice,Hardware,Medium,C,Store data,Route packets,High-density multi-fiber,Assign IPs
+What is the purpose of a server management controller?,Multiple Choice,Hardware,Medium,D,Store data,Route packets,Assign IPs,Provide remote management

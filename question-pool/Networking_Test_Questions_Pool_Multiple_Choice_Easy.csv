@@ -1,0 +1,52 @@
+question_text,question_type,category,difficulty,expected_answer,choice_a,choice_b,choice_c,choice_d
+What device connects computers in a LAN?,Multiple Choice,Networking,Easy,D,Router,Modem,Repeater,Switch
+What does IP stand for?,Multiple Choice,Networking,Easy,A,Internet Protocol,Internal Path,Interconnect Process,Interface Package
+What command tests basic connectivity?,Multiple Choice,Networking,Easy,B,nslookup,ping,ipconfig,traceroute
+What is the purpose of a router?,Multiple Choice,Networking,Easy,C,Boost Wi-Fi,Assign MAC addresses,Route traffic between networks,Terminate cables
+What is the function of DNS?,Multiple Choice,Networking,Easy,A,Translate domain names,Assign IP addresses,Encrypt traffic,Test connectivity
+What type of address is 192.168.1.10?,Multiple Choice,Networking,Easy,B,Public IP,Private IP,Loopback,APIPA
+What does Wi-Fi use to transmit data?,Multiple Choice,Networking,Easy,D,Copper,Fiber,Coax,Radio waves
+What is the default subnet mask for a /24?,Multiple Choice,Networking,Easy,A,255.255.255.0,255.255.0.0,255.0.0.0,255.255.255.128
+What protocol assigns IP addresses automatically?,Multiple Choice,Networking,Easy,C,DNS,ARP,DHCP,ICMP
+What is the loopback IP address?,Multiple Choice,Networking,Easy,B,192.168.0.1,127.0.0.1,10.0.0.1,169.254.0.1
+What device broadcasts Wi-Fi?,Multiple Choice,Networking,Easy,A,Access point,Switch,Firewall,Patch panel
+What does MAC stand for?,Multiple Choice,Networking,Easy,D,Main Access Code,Machine Addressing Component,Media Access Channel,Media Access Control
+What is a network?,Multiple Choice,Networking,Easy,B,A single computer,Connected devices sharing resources,A cable,A wireless password
+What is the purpose of a switch?,Multiple Choice,Networking,Easy,C,Route traffic,Assign IPs,Connect devices in a LAN,Provide internet
+What is the speed of Fast Ethernet?,Multiple Choice,Networking,Easy,A,100 Mbps,10 Mbps,1 Gbps,10 Gbps
+What is the speed of Gigabit Ethernet?,Multiple Choice,Networking,Easy,C,10 Mbps,100 Mbps,1000 Mbps,"10,000 Mbps"
+What is a port number used for?,Multiple Choice,Networking,Easy,D,MAC lookup,Routing,DHCP,Identify services
+What protocol is used for web browsing?,Multiple Choice,Networking,Easy,B,FTP,HTTP,SNMP,SMTP
+What is the purpose of a firewall?,Multiple Choice,Networking,Easy,A,Filter traffic,Assign IPs,Boost Wi-Fi,Terminate cables
+What is an SSID?,Multiple Choice,Networking,Easy,C,IP address,MAC address,Wi-Fi network name,Subnet mask
+What does LAN stand for?,Multiple Choice,Networking,Easy,A,Local Area Network,Large Access Node,Logical Address Network,Linked Access Network
+What does WAN stand for?,Multiple Choice,Networking,Easy,B,Wireless Area Network,Wide Area Network,Web Access Node,Wired Access Network
+What is the purpose of a modem?,Multiple Choice,Networking,Easy,D,Switching,Routing,DHCP,Convert ISP signal
+What is the main function of ARP?,Multiple Choice,Networking,Easy,A,Resolve IP to MAC,Assign IPs,Encrypt traffic,Route packets
+What is a packet?,Multiple Choice,Networking,Easy,C,A cable,A MAC address,A unit of data,A subnet
+What is the purpose of a subnet?,Multiple Choice,Networking,Easy,B,Encrypt traffic,Divide networks,Assign MACs,Boost Wi-Fi
+What is a broadcast?,Multiple Choice,Networking,Easy,D,Private message,Encrypted packet,DHCP request,Message sent to all devices
+What is the purpose of ICMP?,Multiple Choice,Networking,Easy,A,Test connectivity,Assign IPs,Route traffic,Encrypt packets
+What is a hostname?,Multiple Choice,Networking,Easy,C,MAC address,Subnet mask,Device name,Port number
+What is the purpose of traceroute?,Multiple Choice,Networking,Easy,B,Assign IPs,Show path to a destination,Encrypt traffic,Test Wi-Fi
+What is a network cable called?,Multiple Choice,Networking,Easy,A,Ethernet cable,Fiber rod,Coax stick,Wi-Fi cord
+What is a static IP?,Multiple Choice,Networking,Easy,C,APIPA,DHCP,Manually assigned IP,Loopback
+What is a dynamic IP?,Multiple Choice,Networking,Easy,B,Static,Manual,Reserved,DHCP assigned
+What is the purpose of a VPN?,Multiple Choice,Networking,Easy,D,Boost Wi-Fi,Assign IPs,Route traffic,Secure remote access
+What is a gateway?,Multiple Choice,Networking,Easy,A,Exit point of a network,MAC lookup,DNS server,Firewall rule
+What is a network protocol?,Multiple Choice,Networking,Easy,C,A cable type,A MAC address,A communication rule,A subnet
+What is the purpose of a patch cable?,Multiple Choice,Networking,Easy,B,Route traffic,Connect devices,Assign IPs,Encrypt packets
+What is bandwidth?,Multiple Choice,Networking,Easy,D,MAC speed,IP range,Subnet size,Data capacity
+What is latency?,Multiple Choice,Networking,Easy,A,Delay,Speed,Bandwidth,Subnet
+What is a hub?,Multiple Choice,Networking,Easy,C,Router,Firewall,Basic multiport repeater,Switch
+What is a VLAN?,Multiple Choice,Networking,Easy,B,Wi-Fi name,Virtual LAN,MAC filter,Firewall rule
+What is the purpose of a network diagram?,Multiple Choice,Networking,Easy,A,Visualize layout,Assign IPs,Encrypt traffic,Test Wi-Fi
+What is a DHCP lease?,Multiple Choice,Networking,Easy,C,MAC address,Subnet mask,Time an IP is assigned,Firewall rule
+What is a DNS server?,Multiple Choice,Networking,Easy,B,Assign IPs,Resolve names,Encrypt traffic,Route packets
+What is a port?,Multiple Choice,Networking,Easy,D,MAC address,Subnet,Cable,Logical endpoint
+What is a protocol?,Multiple Choice,Networking,Easy,A,Rule for communication,Cable type,MAC filter,Subnet mask
+What is a network adapter?,Multiple Choice,Networking,Easy,C,Router,Switch,NIC,Firewall
+What is a topology?,Multiple Choice,Networking,Easy,B,IP range,Network layout,MAC list,Firewall rule
+What is a ping?,Multiple Choice,Networking,Easy,A,Connectivity test,DHCP request,DNS lookup,ARP broadcast
+What is a MAC address?,Multiple Choice,Networking,Easy,C,IP,Subnet,Hardware identifier,Port number
+What is a DHCP server?,Multiple Choice,Networking,Easy,B,Firewall,Assigns IPs,Router,Switch

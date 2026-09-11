@@ -1,0 +1,52 @@
+question_text,question_type,category,difficulty,expected_answer,choice_a,choice_b,choice_c,choice_d
+What cable type is immune to EMI?,Multiple Choice,Cabling,Easy,D,UTP,STP,Coax,Fiber
+What color pair is used on pins 1 and 2 in T568B?,Multiple Choice,Cabling,Easy,B,Green,Orange,Blue,Brown
+What connector is common for fiber?,Multiple Choice,Cabling,Easy,A,LC,RJ45,BNC,Keystone
+What connector is used for coax?,Multiple Choice,Cabling,Easy,A,BNC,LC,RJ45,SC
+What connector is used for Ethernet cables?,Multiple Choice,Cabling,Easy,A,RJ45,LC,SC,BNC
+What connector uses a push-pull latch?,Multiple Choice,Cabling,Easy,B,RJ45,LC,SC,ST
+What does Cat8 support?,Multiple Choice,Cabling,Easy,C,10 Mbps,1 Gbps,40 Gbps,100 Gbps
+What does coax cable use?,Multiple Choice,Cabling,Easy,D,Twisted pairs,Fiber strands,Shielded pairs,Copper core
+What does OTDR test?,Multiple Choice,Cabling,Easy,D,Copper continuity,MAC addresses,VLANs,Fiber faults
+What does plenum-rated cable resist?,Multiple Choice,Cabling,Easy,D,Water,EMI,Heat,Fire spread
+What does PoE deliver?,Multiple Choice,Cabling,Easy,C,VLAN tags,DNS,Power,MAC addresses
+What does STP cable include?,Multiple Choice,Cabling,Easy,C,Extra pairs,Fiber strands,Shielding,Coax core
+What does T568A/B define?,Multiple Choice,Cabling,Easy,A,Copper pinout,Fiber polarity,Cable shielding,Patch panel size
+What does UTP stand for?,Multiple Choice,Cabling,Easy,B,Universal Twisted Pair,Unshielded Twisted Pair,Unified Termination Protocol,Under-Tension Pair
+What is Cat7 primarily used for?,Multiple Choice,Cabling,Easy,B,Wi-Fi,High-speed copper,Fiber,Coax
+What is multimode fiber used for?,Multiple Choice,Cabling,Easy,B,Long distances,Short distances,Wi-Fi,Copper terminations
+What is single-mode fiber used for?,Multiple Choice,Cabling,Easy,C,Short distances,Wi-Fi,Long distances,Copper terminations
+What is the maximum length of a Cat5e cable?,Multiple Choice,Cabling,Easy,D,50m,75m,90m,100m
+What is the minimum bend radius important for?,Multiple Choice,Cabling,Easy,A,Preventing damage,Boosting Wi-Fi,Assigning IPs,Routing packets
+What is the purpose of a cable boot?,Multiple Choice,Cabling,Easy,D,Assign IPs,Boost Wi-Fi,Route packets,Protect connectors
+What is the purpose of a cable certification tester?,Multiple Choice,Cabling,Easy,D,Assign IPs,Boost Wi-Fi,Route traffic,Validate performance
+What is the purpose of a cable conduit?,Multiple Choice,Cabling,Easy,A,Protect cables,Assign IPs,Boost Wi-Fi,Route packets
+What is the purpose of a cable harness?,Multiple Choice,Cabling,Easy,C,Assign IPs,Boost Wi-Fi,Bundle cables,Route packets
+What is the purpose of a cable jacket?,Multiple Choice,Cabling,Easy,C,Boost Wi-Fi,Assign IPs,Protect conductors,Route traffic
+What is the purpose of a cable lug?,Multiple Choice,Cabling,Easy,C,Boost Wi-Fi,Assign IPs,Terminate heavy cables,Route packets
+What is the purpose of a cable map?,Multiple Choice,Cabling,Easy,C,Assign IPs,Boost Wi-Fi,Document connections,Route packets
+What is the purpose of a cable run?,Multiple Choice,Cabling,Easy,B,Assign IPs,Path cables follow,Boost Wi-Fi,Route packets
+What is the purpose of a cable stripper?,Multiple Choice,Cabling,Easy,A,Remove insulation,Crimp connectors,Test continuity,Assign IPs
+What is the purpose of a cable tester?,Multiple Choice,Cabling,Easy,C,Route traffic,Assign IPs,Verify wiremap,Boost Wi-Fi
+What is the purpose of a cable tie?,Multiple Choice,Cabling,Easy,B,Assign IPs,Organize cables,Boost Wi-Fi,Route packets
+What is the purpose of a cable tray?,Multiple Choice,Cabling,Easy,C,Route traffic,Assign IPs,Support cables,Boost Wi-Fi
+What is the purpose of a continuity test?,Multiple Choice,Cabling,Easy,B,Assign IPs,Check electrical path,Boost Wi-Fi,Route packets
+What is the purpose of a copper pair?,Multiple Choice,Cabling,Easy,B,Boost Wi-Fi,Carry signals,Assign IPs,Route packets
+What is the purpose of a copper patch panel?,Multiple Choice,Cabling,Easy,A,Organize copper terminations,Assign IPs,Boost Wi-Fi,Route packets
+What is the purpose of a fiber cleaver?,Multiple Choice,Cabling,Easy,A,Prepare fiber ends,Crimp connectors,Strip copper,Test continuity
+What is the purpose of a fiber connector?,Multiple Choice,Cabling,Easy,C,Boost Wi-Fi,Assign IPs,Join fiber strands,Route packets
+What is the purpose of a fiber enclosure?,Multiple Choice,Cabling,Easy,A,Protect fiber,Assign IPs,Boost Wi-Fi,Route packets
+What is the purpose of a fiber patch panel?,Multiple Choice,Cabling,Easy,D,Assign IPs,Boost Wi-Fi,Route packets,Organize fiber terminations
+What is the purpose of a keystone jack?,Multiple Choice,Cabling,Easy,C,Route traffic,Assign IPs,Terminate cables,Boost Wi-Fi
+What is the purpose of a patch cable?,Multiple Choice,Cabling,Easy,D,Route traffic,Assign IPs,Terminate fiber,Connect devices
+What is the purpose of a patch cord?,Multiple Choice,Cabling,Easy,A,Connect endpoints,Assign IPs,Route packets,Boost Wi-Fi
+What is the purpose of a patch panel?,Multiple Choice,Cabling,Easy,D,Route traffic,Boost Wi-Fi,Assign IPs,Organize terminations
+What is the purpose of a punchdown block?,Multiple Choice,Cabling,Easy,D,Assign IPs,Boost Wi-Fi,Route packets,Terminate copper pairs
+What is the purpose of a splice?,Multiple Choice,Cabling,Easy,D,Assign IPs,Boost Wi-Fi,Route traffic,Join cables
+What is the purpose of a tone generator?,Multiple Choice,Cabling,Easy,A,Locate cables,Crimp connectors,Test fiber,Assign IPs
+What is the purpose of a wall plate?,Multiple Choice,Cabling,Easy,B,Route traffic,Provide termination point,Assign IPs,Boost Wi-Fi
+What is the purpose of cable labeling?,Multiple Choice,Cabling,Easy,B,Boost Wi-Fi,Identify connections,Assign IPs,Encrypt traffic
+What is the purpose of shielding?,Multiple Choice,Cabling,Easy,D,Boost Wi-Fi,Assign IPs,Route traffic,Reduce interference
+What is the typical speed of Cat6?,Multiple Choice,Cabling,Easy,B,100 Mbps,1 Gbps,10 Gbps,100 Gbps
+What tool is used to crimp RJ45 connectors?,Multiple Choice,Cabling,Easy,A,Crimp tool,Punchdown tool,Cable stripper,Tone generator
+What tool is used to punch wires into a keystone jack?,Multiple Choice,Cabling,Easy,B,Crimper,Punchdown tool,Cleaver,Stripper

@@ -1,0 +1,53 @@
+question_text,question_type,category,difficulty,expected_answer,choice_a,choice_b,choice_c,choice_d
+What does a default gateway do?,Multiple Choice,Networking,Medium,A,Routes traffic out of the LAN,Assigns IPs,Encrypts packets,Resolves DNS
+What protocol resolves IP to MAC?,Multiple Choice,Networking,Medium,B,DNS,ARP,ICMP,SNMP
+What is the purpose of subnetting?,Multiple Choice,Networking,Medium,C,Encrypt traffic,Boost Wi-Fi,Reduce broadcast domains,Assign MACs
+What is the CIDR for a /26?,Multiple Choice,Networking,Medium,D,255.255.255.0,255.255.255.128,255.255.255.240,255.255.255.192
+What is the usable host count in a /25?,Multiple Choice,Networking,Medium,A,126,254,62,30
+What protocol uses port 53?,Multiple Choice,Networking,Medium,B,DHCP,DNS,SSH,SNMP
+What protocol uses port 22?,Multiple Choice,Networking,Medium,C,FTP,Telnet,SSH,SMTP
+What is the purpose of NAT?,Multiple Choice,Networking,Medium,D,Assign IPs,Encrypt traffic,Resolve DNS,Translate private to public IPs
+What is the main function of a switch?,Multiple Choice,Networking,Medium,A,Forward frames,Route packets,Assign IPs,Encrypt traffic
+What is the main function of a router?,Multiple Choice,Networking,Medium,C,Switch frames,Assign MACs,Route packets,Terminate cables
+What is the broadcast address of 10.0.0.0/24?,Multiple Choice,Networking,Medium,B,10.0.0.0,10.0.0.255,10.0.0.1,10.0.1.0
+What is the first usable IP in 192.168.5.0/24?,Multiple Choice,Networking,Medium,A,192.168.5.1,192.168.5.254,192.168.5.2,192.168.5.10
+What is the purpose of STP?,Multiple Choice,Networking,Medium,D,Assign IPs,Encrypt traffic,Boost Wi-Fi,Prevent loops
+What is the purpose of OSPF?,Multiple Choice,Networking,Medium,B,Switching,Dynamic routing,DHCP,DNS
+What is the purpose of BGP?,Multiple Choice,Networking,Medium,C,LAN routing,Wi-Fi management,Internet routing,MAC filtering
+What is MTU?,Multiple Choice,Networking,Medium,A,Max packet size,Subnet size,Bandwidth,Latency
+What is the MTU of Ethernet?,Multiple Choice,Networking,Medium,B,9000,1500,1200,1024
+What is the purpose of VLAN tagging?,Multiple Choice,Networking,Medium,D,Encrypt traffic,Assign IPs,Boost Wi-Fi,Identify VLANs
+What is trunking?,Multiple Choice,Networking,Medium,A,Carrying multiple VLANs,Assigning IPs,Routing packets,Encrypting frames
+What is the purpose of QoS?,Multiple Choice,Networking,Medium,C,Assign IPs,Encrypt traffic,Prioritize traffic,Terminate cables
+What is the purpose of DHCP relay?,Multiple Choice,Networking,Medium,B,Encrypt traffic,Forward DHCP requests,Assign MACs,Route packets
+What is the purpose of a DMZ?,Multiple Choice,Networking,Medium,D,Assign IPs,Boost Wi-Fi,Encrypt traffic,Isolate public services
+What is the purpose of ICMP?,Multiple Choice,Networking,Medium,A,Diagnostics,Routing,DHCP,DNS
+What is the purpose of traceroute?,Multiple Choice,Networking,Medium,C,Assign IPs,Encrypt traffic,Show hop path,Boost Wi-Fi
+What is the purpose of nslookup?,Multiple Choice,Networking,Medium,B,Ping,DNS testing,DHCP,Routing
+What is the purpose of ARP cache?,Multiple Choice,Networking,Medium,D,Encrypt traffic,Assign IPs,Route packets,Store IP-to-MAC mappings
+What is the purpose of a MAC table?,Multiple Choice,Networking,Medium,A,Store MAC-port mappings,Assign IPs,Encrypt traffic,Route packets
+What is the purpose of a routing table?,Multiple Choice,Networking,Medium,C,Store MACs,Assign IPs,Store network paths,Encrypt packets
+What is the purpose of TCP?,Multiple Choice,Networking,Medium,B,Broadcast,Reliable transport,Routing,DHCP
+What is the purpose of UDP?,Multiple Choice,Networking,Medium,D,Reliable transport,Routing,DHCP,Fast transport
+What is the purpose of a firewall rule?,Multiple Choice,Networking,Medium,A,Permit or deny traffic,Assign IPs,Encrypt packets,Route frames
+What is the purpose of a VPN tunnel?,Multiple Choice,Networking,Medium,C,Assign IPs,Boost Wi-Fi,Encrypt remote traffic,Route packets
+What is the purpose of a proxy?,Multiple Choice,Networking,Medium,B,Assign IPs,Filter and forward requests,Encrypt traffic,Route packets
+What is the purpose of SNMP?,Multiple Choice,Networking,Medium,D,Assign IPs,Encrypt traffic,Route packets,Monitor devices
+What is the purpose of syslog?,Multiple Choice,Networking,Medium,A,Centralized logging,Assign IPs,Encrypt traffic,Route packets
+What is the purpose of a network ACL?,Multiple Choice,Networking,Medium,C,Assign IPs,Boost Wi-Fi,Filter traffic,Encrypt packets
+What is the purpose of a static route?,Multiple Choice,Networking,Medium,B,DHCP,Manual path definition,DNS,ARP
+What is the purpose of DHCP reservation?,Multiple Choice,Networking,Medium,D,Encrypt traffic,Route packets,Boost Wi-Fi,Assign fixed IP
+What is the purpose of a load balancer?,Multiple Choice,Networking,Medium,A,Distribute traffic,Assign IPs,Encrypt packets,Route frames
+What is the purpose of a captive portal?,Multiple Choice,Networking,Medium,C,Encrypt traffic,Assign IPs,Authenticate Wi-Fi users,Route packets
+What is the purpose of a network segment?,Multiple Choice,Networking,Medium,B,Encrypt traffic,Divide networks,Assign MACs,Boost Wi-Fi
+What is the purpose of a broadcast domain?,Multiple Choice,Networking,Medium,D,Encrypt traffic,Assign IPs,Route packets,Limit broadcasts
+What is the purpose of a collision domain?,Multiple Choice,Networking,Medium,A,Area where collisions occur,Assign IPs,Encrypt traffic,Route packets
+What is the purpose of a NIC?,Multiple Choice,Networking,Medium,C,Route packets,Assign IPs,Provide network interface,Encrypt traffic
+What is the purpose of a repeater?,Multiple Choice,Networking,Medium,B,Route packets,Regenerate signals,Assign IPs,Encrypt traffic
+What is the purpose of a bridge?,Multiple Choice,Networking,Medium,D,Assign IPs,Encrypt traffic,Route packets,Segment networks
+What is the purpose of a gateway?,Multiple Choice,Networking,Medium,A,Exit point,Assign IPs,Encrypt traffic,Route frames
+What is the purpose of a port scanner?,Multiple Choice,Networking,Medium,C,Assign IPs,Encrypt traffic,Identify open ports,Route packets
+What is the purpose of a network baseline?,Multiple Choice,Networking,Medium,B,Assign IPs,Normal performance reference,Encrypt traffic,Route packets
+What is the purpose of a routing metric?,Multiple Choice,Networking,Medium,D,Encrypt traffic,Assign IPs,Boost Wi-Fi,Evaluate path cost
+What is the purpose of DHCP scope?,Multiple Choice,Networking,Medium,A,Range of IPs,MAC list,DNS entries,Firewall rules
+What is the purpose of DNS caching?,Multiple Choice,Networking,Medium,C,Assign IPs,Encrypt traffic,Speed up lookups,Route packets

@@ -1,0 +1,11 @@
+question_text,question_type,category,difficulty,expected_answer,choice_a,choice_b,choice_c,choice_d
+Describe how you identify a computer that is overheating.,Short Answer,Hardware,Easy,You check for high fan noise warm surfaces and performance slowdown,,,,
+Explain how you determine whether a keyboard is malfunctioning.,Short Answer,Hardware,Easy,You test multiple keys check connection and try another keyboard,,,,
+Describe how you verify that a monitor is receiving power.,Short Answer,Hardware,Easy,You check the power cable the indicator light and the outlet,,,,
+Explain how you diagnose a mouse that stops responding.,Short Answer,Hardware,Easy,You test the mouse on another device check the port and replace batteries if needed,,,,
+Describe how you confirm that a device is properly connected.,Short Answer,Hardware,Easy,You inspect the cable seating and verify the device shows activity,,,,
+Explain how you check whether a computer is frozen.,Short Answer,Hardware,Easy,You test keyboard input mouse movement and look for system response,,,,
+Describe how you identify a loose internal component.,Short Answer,Hardware,Easy,You listen for rattling check physical seating and inspect inside the case,,,,
+Explain how you verify that a printer is powered on.,Short Answer,Hardware,Easy,You check the display lights and confirm the power switch is engaged,,,,
+Describe how you determine whether a laptop battery is failing.,Short Answer,Hardware,Easy,You check charge retention battery warnings and sudden shutdowns,,,,
+Explain how you confirm that a USB device is recognized.,Short Answer,Hardware,Easy,You check system notifications device manager and test another port,,,,

@@ -1,0 +1,11 @@
+question_text,question_type,category,difficulty,expected_answer,choice_a,choice_b,choice_c,choice_d
+Describe how you diagnose a device that cannot reach the network.,Short Answer,Troubleshooting,Medium,You check IP settings test gateway reachability and inspect cabling,,,,
+Explain how you troubleshoot slow system performance.,Short Answer,Troubleshooting,Medium,You review resource usage check background processes and inspect disk health,,,,
+Describe how you diagnose intermittent connectivity.,Short Answer,Troubleshooting,Medium,You test signal strength inspect cabling and monitor for drops over time,,,,
+Explain how you troubleshoot an application that freezes.,Short Answer,Troubleshooting,Medium,You review logs check resource usage and restart the application,,,,
+Describe how you diagnose a device that cannot print.,Short Answer,Troubleshooting,Medium,You check printer status verify drivers and test network reachability,,,,
+Explain how you troubleshoot a device with no audio.,Short Answer,Troubleshooting,Medium,You check output device settings test drivers and inspect hardware,,,,
+Describe how you diagnose a device that cannot access shared resources.,Short Answer,Troubleshooting,Medium,You verify permissions check network path and confirm credentials,,,,
+Explain how you troubleshoot a system that reboots unexpectedly.,Short Answer,Troubleshooting,Medium,You check logs inspect hardware and test for overheating,,,,
+Describe how you diagnose a device with DNS issues.,Short Answer,Troubleshooting,Medium,You test name resolution check DNS settings and verify server reachability,,,,
+Explain how you troubleshoot a device that cannot authenticate.,Short Answer,Troubleshooting,Medium,You check credentials verify domain connectivity and inspect account status,,,,

@@ -1,26 +1,581 @@
 @import "tailwindcss";
 
+/* =====================================
+   Glasshouse Theme
+===================================== */
+
 :root {
+  /* Light mode colors */
   --background: #ffffff;
   --foreground: #171717;
+
+  /* Primary */
+  --gh-blue: #1D428A;
+  --gh-navy: #141B4D;
+  --gh-gray: #A2AAAD;
+
+  /* Secondary */
+  --gh-orange: #FE5000;
+  --gh-electric: #0010DF;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
+/* Dark mode overrides */
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+
+    --gh-blue: #1D428A;
+    --gh-navy: #141B4D;
+    --gh-gray: #A2AAAD;
+
+    --gh-orange: #FE5000;
+    --gh-electric: #0010DF;
   }
 }
 
+/* =====================================
+   Base Styles
+===================================== */
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:
+    Avenir,
+    "Avenir Next",
+    Helvetica,
+    Arial,
+    sans-serif;
+  transition: background 0.3s, color 0.3s;
+}
+
+/* =====================================
+   Headings
+===================================== */
+h1 {
+  @apply text-3xl font-bold mb-6;
+  color: var(--gh-blue);
+}
+
+h2 {
+  @apply text-2xl font-semibold mb-4;
+  color: var(--gh-blue);
+}
+
+h3 {
+  @apply text-xl font-semibold mb-3;
+  color: var(--gh-blue);
+}
+
+/* =====================================
+   Page Container
+===================================== */
+.page-container {
+  @apply max-w-7xl mx-auto p-8;
+}
+
+/* =====================================
+   Dashboard Cards
+===================================== */
+.dashboard-cards {
+  @apply grid gap-6 md:grid-cols-2 lg:grid-cols-4;
+}
+
+.dashboard-card {
+  @apply rounded-lg p-6 shadow transition transform hover:shadow-lg;
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+/* Dark mode for dashboard cards */
+@media (prefers-color-scheme: dark) {
+  .dashboard-card {
+    background-color: #1a1a1a;
+    color: #ededed;
+  }
+}
+
+/* =====================================
+   Tables
+===================================== */
+.table-container {
+  @apply overflow-x-auto rounded-lg shadow;
+}
+
+table {
+  @apply w-full;
+}
+
+th {
+  @apply px-4 py-3 text-left font-semibold;
+  background-color: var(--gh-gray);
+  color: var(--foreground);
+}
+
+td {
+  @apply border-b px-4 py-3;
+}
+
+tbody tr:hover {
+  @apply bg-slate-50;
+}
+
+/* Dark mode for tables */
+@media (prefers-color-scheme: dark) {
+  th {
+    background-color: #141B4D;
+    color: #ededed;
+  }
+
+  tbody tr:hover {
+    background-color: #1a1a2e;
+  }
+
+  table {
+    color: #ededed;
+  }
+}
+
+/* =====================================
+   Forms
+===================================== */
+.form-group {
+  @apply mb-5;
+}
+
+input,
+select,
+textarea {
+  @apply w-full rounded border px-3 py-2;
+  border-color: #ccc;
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #999;
+}
+
+/* Dark mode for forms */
+@media (prefers-color-scheme: dark) {
+
+  input,
+  select,
+  textarea {
+    background-color: #1a1a1a;
+    color: #ededed;
+    border-color: #333;
+  }
+
+  input::placeholder,
+  textarea::placeholder {
+    color: #aaa;
+  }
+}
+
+/* =====================================
+   Buttons
+===================================== */
+.btn-primary {
+  @apply rounded px-4 py-2 font-semibold text-white transition;
+  background-color: var(--gh-orange);
+}
+
+.btn-primary:hover {
+  background-color: #e04800;
+}
+
+.btn-secondary {
+  @apply rounded px-4 py-2 font-semibold text-white transition;
+  background-color: var(--gh-blue);
+}
+
+.btn-secondary:hover {
+  background-color: var(--gh-navy);
+}
+
+.btn-danger {
+  @apply rounded px-4 py-2 font-semibold text-white transition;
+  background-color: red;
+}
+
+.btn-danger:hover {
+  background-color: #b91c1c;
+}
+
+/* =====================================
+   Links
+===================================== */
+a {
+  @apply transition;
+  color: var(--gh-electric);
+}
+
+a:hover {
+  @apply opacity-80;
+}
+
+/* Dark mode links */
+@media (prefers-color-scheme: dark) {
+  a {
+    color: #5da1ff;
+  }
+}
+
+/* =====================================
+   Utility Classes
+===================================== */
+.flex {
+  @apply flex;
+}
+
+.justify-between {
+  @apply justify-between;
+}
+
+.items-center {
+  @apply items-center;
+
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.rounded {
+  border-radius: 0.25rem;
+}
+
+/* =====================================
+   Assessment Experience
+===================================== */
+
+.assessment-container {
+  @apply max-w-5xl mx-auto p-6;
+}
+
+
+/* Header */
+
+.assessment-header {
+  @apply sticky top-4 z-10 rounded-xl shadow-lg p-6 mb-8;
+  background-color: var(--background);
+  border-top: 6px solid var(--gh-orange);
+}
+
+
+.assessment-title {
+  @apply text-3xl font-bold mb-4;
+  color: var(--gh-blue);
+}
+
+
+.assessment-timer {
+  @apply inline-flex items-center rounded-full px-6 py-3 font-bold text-lg text-white shadow;
+  background-color: var(--gh-orange);
+}
+
+
+
+/* Question Cards */
+
+.question-card {
+
+  @apply rounded-xl shadow-md p-7 mb-8;
+
+  background-color: var(--background);
+
+  border: 1px solid #e2e8f0;
+
+  transition:
+    transform .2s ease,
+    box-shadow .2s ease;
+
+}
+
+
+.question-card:hover {
+
+  transform: translateY(-2px);
+
+  box-shadow: 0 10px 25px rgba(0, 0, 0, .08);
+
+}
+
+
+
+.question-number {
+
+  @apply inline-block rounded-full px-4 py-1 text-sm font-bold mb-4;
+
+  color: white;
+
+  background-color: var(--gh-orange);
+
+}
+
+
+
+.question-text {
+
+  @apply text-xl font-semibold leading-relaxed mb-6;
+
+  color: var(--gh-blue);
+
+}
+
+
+
+
+/* =====================================
+   Multiple Choice
+===================================== */
+
+
+.choice-list {
+
+  @apply space-y-3;
+
+}
+
+
+
+.choice-option {
+
+  @apply flex items-start gap-4 rounded-lg p-4 cursor-pointer transition;
+
+  border: 1px solid #d1d5db;
+
+  background-color: var(--background);
+
+}
+
+
+
+.choice-option:hover {
+
+  border-color: var(--gh-orange);
+
+  background-color: #fff7f2;
+
+}
+
+
+
+.choice-option input[type="radio"] {
+
+  @apply mt-1 flex-shrink-0;
+
+  width: 20px;
+
+  height: 20px;
+
+  accent-color: var(--gh-orange);
+
+}
+
+
+
+.choice-label {
+
+  @apply leading-relaxed;
+
+}
+
+
+
+
+
+/* =====================================
+   Text Responses
+===================================== */
+
+
+.assessment-textarea {
+
+  @apply rounded-lg border p-4;
+
+  min-height: 180px;
+
+  resize: vertical;
+
+  line-height: 1.6;
+
+}
+
+
+
+.assessment-textarea:focus {
+
+  outline: none;
+
+  border-color: var(--gh-orange);
+
+  box-shadow: 0 0 0 3px rgba(254, 80, 0, .15);
+
+}
+
+
+
+
+/* =====================================
+   Summary Questions
+===================================== */
+
+
+.summary-box {
+
+  @apply rounded-xl p-6 leading-relaxed;
+
+  background-color: #f8fafc;
+
+  border-left: 6px solid var(--gh-blue);
+
+}
+
+
+
+
+/* =====================================
+   Submit
+===================================== */
+
+
+.submit-container {
+
+  @apply mt-10 text-center;
+
+}
+
+
+
+.submit-button {
+
+  @apply rounded-xl px-10 py-4 text-lg font-bold text-white shadow transition;
+
+  background-color: var(--gh-orange);
+
+}
+
+
+
+.submit-button:hover {
+
+  background-color: #e04800;
+
+  transform: translateY(-2px);
+
+}
+
+
+
+
+/* =====================================
+   Dark Mode
+===================================== */
+
+
+@media (prefers-color-scheme: dark) {
+
+
+  .question-card {
+
+    border-color: #333;
+
+  }
+
+
+
+  .choice-option {
+
+    border-color: #444;
+
+  }
+
+
+
+  .choice-option:hover {
+
+    background-color: #1a1a2e;
+
+  }
+
+
+
+  .summary-box {
+
+    background-color: #1a1a1a;
+
+  }
+
+
+
+}
+
+/* =====================================
+   Assessment Progress
+===================================== */
+
+
+.assessment-progress {
+
+  @apply mt-4 mb-4;
+
+  color: var(--gh-blue);
+
+  font-weight: 600;
+
+}
+
+
+
+.progress-track {
+
+  @apply rounded-full overflow-hidden mt-2;
+
+  height: 12px;
+
+  background: #e5e7eb;
+
+}
+
+
+
+.progress-fill {
+
+  height: 100%;
+
+  background-color: var(--gh-orange);
+
+  transition: width .3s ease;
+
 }

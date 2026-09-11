@@ -1,0 +1,11 @@
+question_text,question_type,category,difficulty,expected_answer,choice_a,choice_b,choice_c,choice_d
+Describe how you check whether a cable is properly seated.,Short Answer,Cabling,Easy,You inspect both ends ensure they click into place and verify link lights,,,,
+Explain how you identify a damaged cable.,Short Answer,Cabling,Easy,You look for bends cuts exposed wires and test with a known good cable,,,,
+Describe how you test basic cable continuity.,Short Answer,Cabling,Easy,You use a simple tester check both ends and confirm all pairs pass,,,,
+Explain how you determine whether a cable is the correct type.,Short Answer,Cabling,Easy,You check labeling verify category rating and match it to the required speed,,,,
+Describe how you organize cables in a small workspace.,Short Answer,Cabling,Easy,You label each cable bundle them neatly and avoid tangling,,,,
+Explain how you check whether a cable run is too long.,Short Answer,Cabling,Easy,You compare length to category limits and test for signal loss,,,,
+Describe how you identify a loose connector.,Short Answer,Cabling,Easy,You inspect the clip test for movement and reseat the connector firmly,,,,
+Explain how you verify that a cable supports PoE.,Short Answer,Cabling,Easy,You check cable category test with a PoE device and confirm power delivery,,,,
+Describe how you test a cable using a basic handheld tester.,Short Answer,Cabling,Easy,You connect both ends run the test and confirm all pairs pass,,,,
+Explain how you label cables to avoid confusion.,Short Answer,Cabling,Easy,You use clear tags consistent naming and place labels near both ends,,,,

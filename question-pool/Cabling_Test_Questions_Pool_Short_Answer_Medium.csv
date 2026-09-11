@@ -1,0 +1,11 @@
+question_text,question_type,category,difficulty,expected_answer,choice_a,choice_b,choice_c,choice_d
+Describe how you diagnose a cable causing intermittent connectivity.,Short Answer,Cabling,Medium,You test for movement inspect connectors and run continuity tests repeatedly,,,,
+Explain how you identify crosstalk in a cable run.,Short Answer,Cabling,Medium,You use a tester check pair separation and inspect routing near interference sources,,,,
+Describe how you troubleshoot a cable that passes continuity but fails under load.,Short Answer,Cabling,Medium,You test bandwidth inspect termination quality and check for microbends,,,,
+Explain how you determine whether a cable is causing packet loss.,Short Answer,Cabling,Medium,You run extended ping tests check error counters and test with a certified cable,,,,
+Describe how you identify poor termination.,Short Answer,Cabling,Medium,You inspect pin alignment check color order and test with a certification tool,,,,
+Explain how you diagnose a cable run with inconsistent PoE delivery.,Short Answer,Cabling,Medium,You measure voltage drop check cable category and inspect connectors for damage,,,,
+Describe how you test cable performance in a busy environment.,Short Answer,Cabling,Medium,You use a certifier measure throughput and check signal integrity,,,,
+Explain how you identify interference affecting a cable.,Short Answer,Cabling,Medium,You inspect routing near power lines test shielding and reroute if needed,,,,
+Describe how you troubleshoot a cable bundle causing degradation.,Short Answer,Cabling,Medium,You check bend radius inspect tension and separate cables from power sources,,,,
+Explain how you verify cable compliance with installation standards.,Short Answer,Cabling,Medium,You check certification results inspect routing and confirm proper termination,,,,
