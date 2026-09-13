@@ -203,9 +203,9 @@ export async function POST(req: NextRequest) {
     }
 
     /*
-  Prevent an already completed
-  assessment from being submitted again.
-*/
+    Prevent an already completed
+    assessment from being submitted again.
+    */
 
     if (
       attempt.status ===
