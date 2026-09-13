@@ -15,6 +15,40 @@ type Assignment = {
   attempt_status?: string
 }
 
+function formatAssignedDate(
+  timestamp: string
+) {
+  const parts =
+    new Intl.DateTimeFormat(
+      'en-US',
+      {
+        timeZone: 'America/New_York',
+        year: 'numeric',
+        month: '2-digit',
+        day: '2-digit'
+      }
+    ).formatToParts(
+      new Date(timestamp)
+    )
+
+  const year =
+    parts.find(
+      part => part.type === 'year'
+    )?.value
+
+  const month =
+    parts.find(
+      part => part.type === 'month'
+    )?.value
+
+  const day =
+    parts.find(
+      part => part.type === 'day'
+    )?.value
+
+  return `${year}-${month}-${day}`
+}
+
 export default function DashboardPage() {
   const router = useRouter()
 
@@ -205,10 +239,11 @@ export default function DashboardPage() {
 
                         <td>
                           {
-                            a.assigned_at?.slice(
-                              0,
-                              10
-                            )
+                            a.assigned_at
+                              ? formatAssignedDate(
+                                a.assigned_at
+                              )
+                              : ''
                           }
                         </td>
 
@@ -253,6 +288,8 @@ export default function DashboardPage() {
 
           )
       }
+
+
 
     </div>
 
