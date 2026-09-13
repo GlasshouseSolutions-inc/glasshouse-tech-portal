@@ -194,6 +194,37 @@ export default function ApplicantLoginPage() {
 
       </form>
 
+      <div className="login-instructions">
+
+        <h2>
+          How to Access Your Dashboard
+        </h2>
+
+        <ol>
+          <li>
+            Enter your email and select{' '}
+            <strong>Send Magic Link</strong>.
+          </li>
+
+          <li>
+            Open your email on this{' '}
+            <strong>same device and browser</strong>.
+          </li>
+
+          <li>
+            Click the Magic Link to securely
+            access your Applicant Dashboard.
+          </li>
+        </ol>
+
+        <p>
+          <strong>Important:</strong>{' '}
+          Opening the link on another device
+          or browser may prevent login.
+        </p>
+
+      </div>
+
 
     </div>
 
