@@ -161,7 +161,8 @@ export async function POST(req: NextRequest) {
           id,
           applicant_id,
           test_id,
-          assignment_id
+          assignment_id,
+          status
         `)
         .eq(
           "id",
@@ -201,6 +202,25 @@ export async function POST(req: NextRequest) {
 
     }
 
+    /*
+  Prevent an already completed
+  assessment from being submitted again.
+*/
+
+    if (
+      attempt.status ===
+      "COMPLETED"
+    ) {
+
+      return NextResponse.redirect(
+        new URL(
+          "/assessment/complete",
+          req.url
+        ),
+        303
+      );
+
+    }
 
 
     /*
