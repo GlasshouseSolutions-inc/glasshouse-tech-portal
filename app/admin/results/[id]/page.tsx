@@ -8,80 +8,198 @@ interface PageProps {
   }>
 }
 
-interface TestResult {
-  id: string
-  applicant_id: string
-  test_id: string
-  score: number | null
-  created_at: string | null
-}
-
 export default async function ResultDetailsPage({
   params,
 }: PageProps) {
+
   const { id } = await params
 
-  const { data, error } = await supabase
-    .from('test_results')
-    .select('*')
-    .eq('applicant_id', id)
 
-  if (error) {
-    console.error(error)
+  const {
+    data: result,
+    error
+  } = await supabase
+    .from('test_results')
+    .select(`
+      id,
+      attempt_id,
+      score,
+      pass_fail,
+      recommendation,
+      completed_at,
+      applicant:applicant_id (
+        id,
+        first_name,
+        last_name
+      ),
+      test:test_id (
+        id,
+        name
+      )
+    `)
+    .eq(
+      'id',
+      id
+    )
+    .single()
+
+
+  if (
+    error ||
+    !result
+  ) {
+
+    console.error(
+      'Result lookup failed:',
+      error
+    )
 
     return (
       <div>
-        <h1>Results</h1>
-        <p>Error loading results.</p>
+
+        <h1>
+          Assessment Result
+        </h1>
+
+        <p>
+          Result not found.
+        </p>
+
       </div>
     )
+
   }
 
-  const results = (data ?? []) as TestResult[]
+
+  const applicant =
+    result.applicant as any
+
+  const test =
+    result.test as any
+
+
+  const applicantName =
+    applicant
+      ? `${applicant.first_name} ${applicant.last_name}`
+      : 'Unknown'
+
+
+  const testName =
+    test
+      ? test.name
+      : 'Unknown'
+
 
   return (
+
     <div>
-      <h1>Applicant Results</h1>
 
-      {results.length === 0 ? (
-        <p>No results found.</p>
-      ) : (
-        results.map((result) => (
-          <div
-            key={result.id}
-            style={{
-              border: '1px solid #ddd',
-              padding: '1rem',
-              marginBottom: '1rem',
-            }}
-          >
-            <p>
-              <strong>Result ID:</strong>{' '}
-              {result.id}
-            </p>
+      <h1>
+        Assessment Result
+      </h1>
 
-            <p>
-              <strong>Applicant ID:</strong>{' '}
-              {result.applicant_id}
-            </p>
 
-            <p>
-              <strong>Test ID:</strong>{' '}
-              {result.test_id}
-            </p>
+      <div
+        style={{
+          backgroundColor:
+            'white',
 
-            <p>
-              <strong>Score:</strong>{' '}
-              {result.score ?? 'Not scored'}
-            </p>
+          border:
+            '1px solid #ddd',
 
-            <p>
-              <strong>Created:</strong>{' '}
-              {result.created_at ?? 'Unknown'}
-            </p>
-          </div>
-        ))
-      )}
+          borderRadius:
+            '8px',
+
+          padding:
+            '1.5rem',
+
+          maxWidth:
+            '700px'
+        }}
+      >
+
+        <p>
+          <strong>
+            Applicant:
+          </strong>{' '}
+          {applicantName}
+        </p>
+
+
+        <p>
+          <strong>
+            Test:
+          </strong>{' '}
+          {testName}
+        </p>
+
+
+        <p>
+          <strong>
+            Score:
+          </strong>{' '}
+          {
+            result.score ??
+            'Not scored'
+          }
+        </p>
+
+
+        <p>
+          <strong>
+            Pass / Fail:
+          </strong>{' '}
+          {
+            result.pass_fail ??
+            'Not available'
+          }
+        </p>
+
+
+        <p>
+          <strong>
+            Recommendation:
+          </strong>{' '}
+          {
+            result.recommendation ??
+            'Not available'
+          }
+        </p>
+
+
+        <p>
+          <strong>
+            Completed:
+          </strong>{' '}
+          {
+            result.completed_at ??
+            'Unknown'
+          }
+        </p>
+
+
+        <p>
+          <strong>
+            Result ID:
+          </strong>{' '}
+          {result.id}
+        </p>
+
+
+        <p>
+          <strong>
+            Attempt ID:
+          </strong>{' '}
+          {
+            result.attempt_id ??
+            'Unknown'
+          }
+        </p>
+
+      </div>
+
     </div>
+
   )
+
 }
